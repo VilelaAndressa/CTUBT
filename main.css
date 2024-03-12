@@ -23,7 +23,6 @@ html {
     max-width: 100%;
     margin: 0;
     background-color: rgba(0, 0, 0, 40%);
-
 }
 
 .logo{
@@ -227,7 +226,6 @@ li {
 }
 
 .iconService {
-
     width: 150px;
     height: 162px;
 }

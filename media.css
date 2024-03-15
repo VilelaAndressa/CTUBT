@@ -280,7 +280,6 @@
         background-image: url(imagens/hero_Phone.png);
         background-size: cover;
     }
-
     
     .contain {
         width: 100%;
@@ -299,6 +298,28 @@
         margin: 0.1rem -32%;
         font-size: 5rem;
     }
+
+    .logo_menu {
+        width: 6rem;
+        margin: auto 45% 1rem;
+    }
+
+    .itens_link {
+        width: 100%;
+        right: 0;
+        top: 0;
+        font-size: 1.5em;
+        padding-top: 1.2rem;
+        padding-right: 10%;
+    }
+
+    .link a {
+        margin-left: 4rem;
+        justify-content: center;
+        height: 1rem;
+        font-size: 1.3rem;
+    }
+
 
     #menu_principal {
         display: none;
@@ -319,7 +340,8 @@
         margin: 0 1.5rem 6%;
         font-size: 0.8rem;
         width: 50%;
-        text-shadow: none;
+        text-shadow: 1px 1px 2px #000000;
+
     }
 
     .button {
@@ -760,6 +782,11 @@
     .circleWhats {
         width: 2rem;
         height: 2rem;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
     }
 
     .circleWhats img {

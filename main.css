@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html {
     font-style: normal;
     font-weight: 400;
@@ -12,7 +17,6 @@ html {
 
 .container {
     max-width: 100%;
-    height: 140px;
     font-size: 25px;
     margin: 0;
     padding: 0;
@@ -22,11 +26,19 @@ html {
 .header {
     max-width: 100%;
     margin: 0;
+    height: 140px;
     background-color: rgba(0, 0, 0, 40%);
+    box-shadow: 0 0.1rem 0.5rem #3b3b3b;
+
+}
+
+.header:hover{
+    background: #FEB206;
+    transition: 0.5s;
 }
 
 .logo{
-    width: 100px;
+    width: 120px;
     height: auto;
     margin-left: 130px;
     margin-top: 15px;
@@ -40,7 +52,7 @@ li {
     margin: 10px;
 }
 
-.contato img {
+.contato i {
     width: 22px;
     margin-bottom: 5px;
     margin-right: 10px;
@@ -55,16 +67,95 @@ li {
     margin-top: 15px;
     padding: 0;
     float: right;
-    margin-right: 130px;
+    margin-right: 200px;
 }
 
-.list {
+menu {
+    display: none;
+}
+
+#menu_icon {
+    color: #ffffff;
+    position: absolute;
+    display: block;
+    top: 1.2rem;
+    right: 130px;
+    font-size: 28px;
+    margin-left: 20px;
+    cursor: pointer;
+    z-index: 999999;
+}
+
+#menu_icon:hover {
+    color: #000;
+}
+
+menu h1 {
+    margin: 20px 5rem;    
+    color: #ffffff;
+}
+
+.logo_menu {
+    display: flex;
+    width: 63px;
+    margin: 0px 6.5rem 15px;
+    transform: rotate(360deg);
+}
+
+.itens_link {
+    width: 268px;
+    position: absolute;
+    top: 1.2rem;
+    right: 130px;    
+    background: #FEB206;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0 10px;
+    box-shadow: 0 0.1rem 0.5rem #3b3b3b;
+}
+
+.link a {
+    display: flex;
+    padding-top: 12px;
+    padding-left: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    height: 24px;
+    font-size: 24px;
+    border-top: 2px solid #00000036;
+    list-style-type: none;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+li a {
+    text-decoration: none;
+}
+
+#menu_principal {
+    display: flex;
+    margin-left: 584px;
+    margin-top: 30px;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.list a {
+    display: flex;
     font-size: 28px;
     font-weight: 700;
-    margin-top: -60px;
-    padding: 0;
-    float: right;
-    margin-right: 130px;
+    margin-top: -100px;
+    padding: 10px auto;
+    right: 0;
+    list-style-type: none;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.list a:hover {
+    color: #000;
 }
 
 .hero {
@@ -78,12 +169,16 @@ li {
     margin-bottom: 60px;
     font-size: 34px;
     font-weight: 700;
+    color: #FEB206;
+    text-shadow: 1px 1px 2px #000000;
 }
 
 .heroSubtitle {
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 60px;
     text-align: justify;
+    text-shadow: 2px 2px 3px #ffffff;
+
 }
 
 .button {
@@ -96,7 +191,7 @@ li {
     font-size: 16px;
 }
 
-.about {
+.about_text {
     margin-left: auto;
     margin-right: auto;
     margin-top: 300px;
@@ -118,7 +213,6 @@ li {
     font-size: 20px;
     font-weight: 500;
     margin-left: 15px;
-    margin-top: -40px;
     color: #FEB206;
 }
 
@@ -167,7 +261,6 @@ li {
     width: 75px;
     height: 69px;
     filter:drop-shadow( 1px 1px 2px #000000);
-    ;
 }
 
 .quoteTestimony {
@@ -230,8 +323,8 @@ li {
     height: 162px;
 }
 
-
 .textService {
+    margin-top: 15px;
     width: 276px;
     height: 76px;
     font-size: 16px;
@@ -261,7 +354,7 @@ li {
 }
 
 .planPrice h4 {
-    margin-top: -15px;
+    margin-top: 15px;
     font-size: 20px;
     color: #ffffffab ;
     text-transform: uppercase;
@@ -270,7 +363,7 @@ li {
 .planPrice h3 {
     font-size: 38px;
     font-weight: 700;
-    margin: -15px;
+    margin: 15px;
 }
 
 .planPrice h3 span {
@@ -282,14 +375,20 @@ li {
 .planPrice p {
     color: #ffffffab;
     font-size: 12px;
-    margin-top: 20px;
+    margin-top: -15px;
     margin-left: 10px;
 }
 
+.planPrice_p {
+    margin-top: 50px;
+    margin-bottom: auto;
+}
+
 .planPrice h6{
+    cursor: pointer;
     margin-top: 40px;
     color: #fe0606;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .bgPrice {
@@ -308,6 +407,8 @@ li {
 }
 
 .buttonPrice button {
+    margin-top: 15px;
+    cursor: pointer;
     color: rgb(255, 255, 255);
     width: 200px;
     height: 35px;
@@ -330,7 +431,7 @@ li {
 
 .titlePhoto {
     text-align: center;
-    margin-top: 80px;
+    margin-top: 70px;
 }
 
 .titlePhoto h2 {
@@ -338,8 +439,9 @@ li {
 }
 
 .titlePhoto h4 {
+    font-size: 28px;
     color: #FEB206;
-    margin-top: -15px;
+    margin: 15px auto 30px;
 }
 
 .photoClass {
@@ -361,6 +463,7 @@ li {
 }
 
 .photoClass h2 {
+    margin-top: 25px;
     text-align: center;
     text-transform: uppercase;
     color: #FEB206;
@@ -369,6 +472,7 @@ li {
 }
 
 .textPhoto {
+    margin-top: 15px;
     text-align: center;
     font-size: 16px;
 }
@@ -381,6 +485,8 @@ li {
     width: 100%;
     height: 348px;
     background-image: url(imagens/Schedule.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .schedule h1 {
@@ -388,7 +494,7 @@ li {
     width: 438px;
     height: 69px;
     font-size: 34px;
-    font-weight: 400;
+    font-weight: 500;
     margin: 59px;
 }
 
@@ -441,22 +547,21 @@ li {
     align-items: center;
     justify-content: center;
     width: 1180px;
-
-    
 }
 
 .squareTeachers {
-    width: 250px;
-    height: 250px;
+    width: 240px;
+    height: 240px;
     position: absolute;
     border: #FEB206 solid 3px;
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-left:  15px;
 }
 
 .photoTeachers img {
     width: 250px;
     height: 250px;
-    margin: 0px 16px 0px 16px;
+    margin: 0px 30px 0px 30px;
 }
 
 .photoTeachers h3 {
@@ -464,6 +569,7 @@ li {
     font-size: 24px;
     text-transform: uppercase;
     font-weight: 500;
+    margin-top: 30px;
 }
 
 .form {
@@ -497,6 +603,7 @@ li {
 }
 
 .titleForm h1 {
+    width: 350px;
     font-size: 34px;
     color: #000000;
 }
@@ -566,6 +673,7 @@ li {
     color: #ffffff;
     font-size: 20px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .contact {
@@ -588,9 +696,9 @@ li {
 .contact p {
     display: flex;
     flex-direction: row;
-    margin: 30px auto 30px auto;
+    margin: 30px auto 15px auto;
     width: 279px;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
     color: #ffffff;
     text-transform: capitalize;
@@ -603,12 +711,13 @@ li {
     font-weight: 500;
 }
 
-.contact img {
-    width: 22px;
-    margin-bottom: -5px;
+.contact i {
+    color: #FEB206;
+    margin-bottom: -10px;
     margin-right: 10px;
     align-items: center;
     justify-content: center;
+    font-size: 20px;
 }
 
 .contact iframe{

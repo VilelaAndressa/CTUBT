@@ -508,6 +508,7 @@ li a {
     text-transform: uppercase;
     margin: 59px;
     color: #fff;
+    cursor: pointer;
 }
 
 .teachers {

@@ -1,0 +1,152 @@
+@media screen and (max-width:1034px) {
+
+    #menu_principal, .contato {
+        display: none;
+    }
+
+    #menu_icon {
+        font-size: 80px;
+    }
+
+    .hero {
+        width: 80%;
+        margin-bottom: 50px;
+    }
+    
+    .hero h1 {
+        width: 290px;
+        font-size: 40px;
+        margin-bottom: 0;
+        height: 190px;
+    }
+
+    .hero h4 {
+        width: 400px;
+        margin-top: 0;
+    }
+    
+    .cell_hero img {
+        width: 250px;
+    }
+
+    .plans {
+        height: 100vh;
+    }
+
+    .plan {
+        width: 80%;
+    }
+
+    .type {
+        display: inline-block;
+        flex-wrap: wrap;
+        margin: 60px 90px 30px;
+    }
+
+    .accordion_container {
+        margin-bottom: 60px;
+    }
+    
+    .accordion {
+        width: 65%;
+        display: block;
+        margin: auto;
+    }
+
+    .footer {
+        font-size: 18px;
+        height: 40px;
+        text-align: center;
+        margin: auto;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:992px) {
+
+    .hero {
+        width: 80%;
+        margin: 60px auto;
+    }
+
+    .hero h4 {
+        width: 350px;
+        font-size: 16px;
+    }
+
+    .plan {
+        width: 90%;
+        height: 100vh;
+    }
+
+    .accordion {
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    
+    .logo {
+        margin: 1.5rem;
+        width: 6.5rem;
+    }
+
+     #menu_icon {        
+        margin: 0.1rem -25%;
+        font-size: 5rem;
+    }
+
+    .logo_menu {
+        width: 6rem;
+        margin: auto auto 1rem;
+    }
+
+    .itens_link h1 {
+        margin-left: 1.5rem;
+    }
+
+    .itens_link {
+        width: 100%;
+        right: 0;
+        top: 0;
+        font-size: 1.5em;
+        padding-top: 1.2rem;
+    }
+
+    .link a {
+        justify-content: center;
+        height: 1rem;
+        font-size: 1.3rem;
+    }
+
+    .hero {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero h1 {
+        width: 400px;
+        margin: 60px auto 30px;
+        height: 100px;
+    }
+
+    .hero h4 {
+        margin: 0 auto 30px;
+        width: 300px;
+        height: 100px;
+        font-size: 1rem;
+    }
+
+    .cell_hero {
+        margin: auto;
+    }
+
+    .cell_hero img {
+        width: 200px;
+    }
+
+
+}

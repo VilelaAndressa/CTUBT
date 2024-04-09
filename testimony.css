@@ -1,0 +1,284 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+  
+img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+
+.gallery {
+    margin: 90px auto;
+    width: 80%;
+}
+  
+section {
+    column-count: 5;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+} 
+
+
+.about {
+  width: 68%;
+  height: 545px;
+  display: flex;
+  justify-content: space-between;
+  margin: 90px auto;
+}
+
+.about .aboutSubtitle img {
+  width: 40px;
+}
+
+.about .aboutSubtitle h2 {
+  font-weight: 700;
+}
+
+.about .titleAbout h1 {
+  color: rgb(255, 102, 0);
+}
+
+.about .textAbout {
+  width: 470px;
+  font-size: 18px;
+}
+
+.about .imgAbout {
+  width: 370px;
+  box-shadow: -15px 15px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.view-more {
+  margin-bottom: 56px;
+}
+
+.view-more .view-more_content {
+  max-height: 300px;
+  overflow: hidden;
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.view-more.view-more--expand .view-more_content {
+  max-height: unset;
+}
+
+.view-more:not(.view-more--expand) .view-more_content::after {
+  content: "";
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  height: 162px;
+  background: linear-gradient(0deg, #FFF 33.08%, rgba(255, 255, 255, 0.00) 69.54%);
+}
+
+.view-more:not(.view-more--expand) .view-more-collapse {
+  display: none;
+}
+
+.view-more.view-more--expand  .view-more-expand {
+  display: none;
+}
+
+.view-more .view-more_actions {
+  text-align: center;
+  width: 100%;
+}
+
+.view-more .view-more_actions button {
+  color: rgba(0, 0, 255, 0.322);
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+
+
+.testimony {
+  margin-top: 90px;
+  background-image: url(imagens/Testimony.png);
+  background-size: cover;
+  background-position: 50%;
+  height: 250px;
+  padding: 50px 20px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.testimony .slide {
+  padding: auto 60px;
+  cursor: grab;
+}
+
+.testimony .slide:active {
+  cursor: grabbing;
+}
+
+.testimony i {
+  font-size: 75px;
+  color: #FEB206;
+  filter:drop-shadow( 1px 1px 2px #000000);
+}
+
+.testimony p.testimony_txt {
+  font-size: 34px;
+  font-weight: 700;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #fff;
+  filter:drop-shadow( 1px 1px 2px #424242);
+
+}
+
+.slide .person p.name_person{
+  font-size: 24px;
+  color: #FEB206;
+  font-weight: 600;
+  text-align: center;
+  filter:drop-shadow( 1px 1px 2px #444444);
+}
+
+
+
+
+
+
+
+
+.plans {
+    width: 100%;
+    height: 768px;
+    background: #fff;
+}
+
+.plan {
+    width: 80%;
+    margin: auto;
+}
+
+.type {
+    width: 20%;
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 50px;
+    box-sizing: border-box;
+}
+
+.text_plan {
+    width: 400px;
+    margin: auto;
+}
+
+.text_plan h1 {
+    font-size: 38px;
+    padding-top: 60px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.text_plan h5 {
+    font-size: 1.5rem;
+    color: #FAA846;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.type_plan {
+    width: 243px;
+    height: 430px;
+    background-color: #322C36;
+    border-radius: 15px;
+    clip-path: polygon(50% 100%, 100% 86%, 100% 0, 0 0, 0 86%);
+}
+
+.text_type {
+    width: 188px;
+    height: 66px;
+    font-size: 28px;
+    margin-left: 28px;
+    padding-top: 15px;
+    margin-top: -5px;
+    background-color: #FAA846;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    position: absolute;
+    clip-path: polygon(0 4%, 100% 20%, 100% 82%, 0% 100%);
+    z-index: 1;
+}
+
+.type_plan h1 {
+    padding-top: 70px;
+    text-align: center;
+    color: #FAA846;
+    font-size: 38px;
+}
+
+.type_plan h1 span {
+    font-size: 24px;
+}
+
+.type_plan p {
+    font-size: 12px;
+    color: #fff;
+    margin-top: -30px;
+    font-weight: 400;
+    margin-left: 70%;
+    padding-bottom: 10px;
+}
+
+.plan_check i {
+    color: #FAA846;
+    padding-left: 2px;
+    padding-right: 5px;
+}
+
+.plan_check li {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    margin: auto 18%;
+    list-style: none;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    border-bottom: #fff solid 1px;
+    width: 150px;
+}
+
+.btn_plan {
+    background: #FAA846;
+    border: none;
+    border-radius: 50px;
+    width: 180px;
+    height: 30px;
+    margin-top: 1.2rem;
+    margin-left: 12%;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+}
+
+.type_plan h6 {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.type_plan h6 span {
+    color: #ff0000;
+}

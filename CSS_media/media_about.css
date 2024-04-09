@@ -1,0 +1,524 @@
+@media screen and (max-width:1584px) {
+
+    #menu_principal {
+        float: right;
+        margin-right: 120px;
+    }
+
+    .list a {
+        font-size: 16px;
+    }
+
+    .about {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+
+    .container {
+        max-width: 992px;
+    }
+
+    #menu_icon {
+        font-size: 80px;
+    }
+
+    #menu_principal, .contato {
+        display: none;
+    }
+
+    .about {
+        width: 80%;
+        margin: 90px auto;
+    }
+
+    .aboutSubtitle, .titleAbout h4 {
+        font-size: 14px;
+    }
+
+    .titleAbout h1 {
+        font-size: 24px;
+    }
+
+    .textAbout {
+        font-weight: 500;
+        width: 400px;
+        height: 250px;
+        font-size: 18px;
+    }
+
+    .about .imgAbout {
+        width: 280px;
+        height: 280px;
+    }
+
+    .story_txt {
+        width: 80%;
+    }
+
+    .story_txt h1 {
+        font-size: 28px;
+    }
+
+    .story_txt p {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    .location_space {
+        width: 80%;
+    }
+
+    .space_txt h1 {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .space_txt p {
+        font-size: 22px;
+    }
+
+    .space_img {
+        width: 90%;
+        margin-top: 30px;
+    }
+
+    .space_img img {
+        width: 190px;
+        height: 190px;
+    }
+
+    .space_container {
+        width: 100%;
+        height: 820px;
+    }
+
+    .ethics_txt {
+        width: 80%;
+    }
+
+    .ethics_txt p {
+        font-size: 22px;
+    }
+    .title_testimony {
+        width: 80%;
+        padding-top: 60px;
+    }
+
+    .title_testimony h1 {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .title_testimony p {
+        font-size: 22px;
+    }
+
+    .testimony p.testimony_txt {
+        font-size: 24px;
+        width: 70%;
+    }
+
+    .testimony {
+        height: 600px;
+    }
+
+    .contact_container {
+        width: 80%;
+        margin: auto;
+    }
+
+    .contact_title h1 {
+        font-size: 28px;
+    }
+
+    .contact_title p {
+        font-size: 22px;
+        width: 90%;
+        font-weight: 500;
+    }
+
+    .contact_location {
+        width: 90%;
+    }
+
+    .location_txt {
+        width: 300px;
+    }
+
+    .location_txt h3, .social_media h3 {
+        margin-top: 15px;
+        font-size: 24px;
+    }
+
+    .location_txt h2 {
+        font-size: 24px;
+    }
+
+    .location_txt h4 {
+        font-size: 20px;
+    }
+
+    .social_media p {
+        margin-bottom: 10px;
+    }
+
+    .social_media .whats, .social_media .insta {
+        font-size: 16px;
+        width: 160px;
+        height: 20px;
+        padding-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+    .about {
+        width: 80%;
+    }
+
+    .textAbout {
+        width: 90%;
+        height: 150px;
+        font-size: 16px;
+    }
+
+    .about .imgAbout {
+        margin-top: 50px;
+        width: 260px;
+        height: 260px;
+    }
+
+    .story {
+        height: 820px;
+        margin: auto;
+    }
+
+    .story_txt p {
+        font-size: 18px;
+    }
+
+    .space_img {
+        margin: 60px 40px;
+    }
+
+    .space_txt p {
+        font-size: 20px;
+    }
+    
+    .space_img img {
+        width: 130px;
+        height: 130px;
+        margin: 5px;
+        border: #FFCB0C solid 6px;
+    }
+
+    .space_container {
+        margin-top: -730px;
+        height: 720px;
+    }
+
+    .ethics_txt h1 {
+        padding-top: 90px;
+    }
+
+    .ethics_txt p {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    
+    .title_testimony p {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .testimony .slide {
+        margin-top: 60px;
+    }
+
+    .testimony i {
+        font-size: 60px;
+        color: #FEB206;
+    }
+
+    .testimony p.testimony_txt {
+        font-size: 22px;
+        font-weight: 400;
+    }
+
+    .contact_container {
+        margin-top: 90px;
+        width: 80%;
+    }
+
+    .contact_title p {
+        font-size: 20px;
+        font-weight: 500;
+        width: 360px;
+    }
+
+    .social_media .whats, .social_media .insta {
+        width: 150px;
+        height: 14px;
+        font-size: 14px;
+        padding: 5px 10px 20px;
+    }
+
+    .social_media .whats i, .social_media .insta i {
+        font-size: 20px;
+    }
+
+    .location_txt h3, .social_media h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .location_txt h2, .location_txt h4 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .contact_photo img {
+        width: 200px;
+        margin-left: -50px;
+        padding-top: 50px;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .logo {
+        margin: 1.5rem;
+        width: 6.5rem;
+    }
+
+     #menu_icon {        
+        margin: 0.1rem -25%;
+        font-size: 5rem;
+    }
+
+    .logo_menu {
+        width: 6rem;
+        margin: auto auto 1rem;
+    }
+
+    .itens_link h1 {
+        margin-left: 1.5rem;
+    }
+
+    .itens_link {
+        width: 100%;
+        right: 0;
+        top: 0;
+        font-size: 1.5em;
+        padding-top: 1.2rem;
+    }
+
+    .link a {
+        justify-content: center;
+        height: 1rem;
+        font-size: 1.3rem;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        height: 668px;
+        width: 80%;
+        margin: 90px auto;
+    }
+
+    .aboutSubtitle, .titleAbout h4 {
+        font-size: 12px;
+    }
+
+    .titleAbout h1 {
+        font-size: 18px;
+    }
+    
+    .textAbout {
+        width: 90%;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .about .imgAbout {
+        width: 260px;
+        height: 260px;
+        margin: 0 auto 0 5px;
+        box-shadow: -10px 10px 15px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .story {
+        height: 820px;
+        margin: auto;
+    }
+
+    .story_txt h1 {
+        font-size: 18px;
+    }
+    
+    .story_txt h5 {
+        font-size: 16px;
+    }
+
+    .story_txt p {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .location_space {
+        width: 80%;
+        margin: 30px auto;
+    }
+
+    .space_txt h1 {
+        font-size: 18px;
+    }
+
+    .space_txt p {
+        font-size: 13px;
+    }
+
+    .space_img {
+        margin-top: -30px;
+    }
+
+    .space_img img {
+        width: 100px;
+        height: 100px;
+        border: #FFCB0C solid 4px;
+    }
+
+    .space_container {
+        margin-top: -750px;
+        height: 720px;
+    }
+
+    .ethics {
+        height: 400px;
+    }
+
+    .ethics_txt h1 {
+        font-size: 18px;
+        padding-top: 60px;
+    }
+
+    .ethics_txt p {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .testimony {
+        height: 480px;
+    }
+
+    .title_testimony h1 {
+        font-size: 18px;
+        margin-top: 0;
+    }
+
+    .title_testimony p {
+        font-size: 16px;
+        font-weight: 400;
+    } 
+
+    .testimony .slide {
+        margin-top: 50px;
+    }
+
+    .testimony i {
+        font-size: 40px;
+    }
+
+    .testimony p.testimony_txt {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .slide .person p.name_person {
+        font-size: 16px;
+    }
+
+    .contact_container{
+        display: flex;
+        width: 80%;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .contact_title h1 {
+        font-size: 18px;
+    }
+
+    .contact_title p {
+        font-size: 16px;
+        margin-bottom: 30px;
+        font-weight: 500;
+        width: 90%;
+    }
+
+    .contact_location {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .location_txt h3, .location_txt h2, .location_txt h4 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .social_media h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .social_media .whats i, .social_media .insta i {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .social_media .whats, .social_media .insta {
+        font-size: 14px;
+        font-weight: 500;
+        width: 140px;
+        height: 14px;
+        margin: 10px 0;
+        padding: 5px 15px 15px;
+    }
+
+    .contact_photo img {
+        width: 140px;
+        height: 240px;
+        float: right;
+        margin-top: -150px;
+        margin-left: 5px;
+    }
+
+    footer .container {
+        font-size: 10px;
+        height: 30px;
+    }
+
+    .circleWhats {
+        width: 2rem;
+        height: 2rem;
+        position: fixed;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+    }
+
+    .circleWhats img {
+        width: 1.4rem;
+        height: 1.4rem;
+        margin-top: 0.3rem;
+        margin-left: 0.3rem;
+    }
+}

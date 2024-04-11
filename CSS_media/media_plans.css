@@ -1,4 +1,79 @@
-@media screen and (max-width:1034px) {
+@media screen and (max-width:1584px) {
+
+    #menu_principal {
+        float: right;
+        margin-right: 120px;
+    }
+
+    .list a {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width:1280px) {
+
+    .contato {
+        font-size: 14px;
+    }
+    .list a{
+        font-size: 16px;
+    }
+
+    .plans {
+        height: 90%;
+   
+    }
+
+    .type {
+        margin-bottom: 90px;
+    }
+
+    .type {
+        margin-left: 4%;
+    }
+
+    .type_plan {
+        width: 200px;
+        height: 400px;
+    }
+
+    .text_type {
+        width: 150px;
+        height: 60px;
+        font-size: 24px;
+    }
+
+    .type_plan h1 {
+        padding-top: 50px;
+    }
+
+    .plan_check li {
+        margin: auto 12%;
+    }
+
+    .btn_plan {
+        width: 150px;
+        font-size: 18px;
+    }
+
+    .accordion_txt {
+        width: 450px;
+    }
+
+    .accordion_txt summary{
+        font-size: 18px;
+        width: 450px;
+
+    }
+
+
+    .footer {
+        font-size: 20px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width:1024px) {
 
     #menu_principal, .contato {
         display: none;

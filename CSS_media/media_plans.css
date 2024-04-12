@@ -19,9 +19,12 @@
         font-size: 16px;
     }
 
+    .hero {
+        width: 80%;
+    }
+
     .plans {
         height: 90%;
-   
     }
 
     .type {
@@ -185,12 +188,12 @@
         right: 0;
         top: 0;
         font-size: 1.5em;
-        padding-top: 1.2rem;
+        padding-top: 1rem;
     }
 
     .link a {
         justify-content: center;
-        height: 1rem;
+        height: 1.6rem;
         font-size: 1.3rem;
     }
 
@@ -222,5 +225,79 @@
         width: 200px;
     }
 
+    .plans {
+        height: 2150px;
+    }
 
+    .text_plan {
+        width: 300px;
+    }
+
+    .text_plan h1 {
+        font-size: 28px;
+    }
+
+    .text_plan h5 {
+        width: 200px;
+        font-size: 1.2rem;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .type {
+        margin-top: 20px;
+        margin-left: 23%;
+    }
+
+    .accordion_container {
+        width: 80%;
+    }
+
+    .title_accordion{
+        width: 60%;
+        margin-bottom: 30px;
+    }
+
+    .accordion_container img {
+        width: 85px;
+        height: 75px;
+    }
+
+    .title_accordion h3 {
+        font-size: 24px;
+        margin-top: -15px;
+    }
+
+    .accordion {
+        padding-left: 0;
+    }
+
+    .accordion_txt {
+        width: 250px;
+    }
+   
+    .accordion_txt summary {
+        width: 230px;
+    }
+
+    .accordion_txt p {
+        width: 250px;
+        font-size: 14px;
+
+    }
+
+    .circleWhats {
+        width: 2rem;
+        height: 2rem;
+        position: fixed;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+    }
+
+    .circleWhats img {
+        width: 1.4rem;
+        height: 1.4rem;
+        margin-top: 0.3rem;
+        margin-left: 0.3rem;
+    }
 }

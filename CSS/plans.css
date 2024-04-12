@@ -408,3 +408,24 @@ li a {
     background: #322C36;
     padding: 10px 34%;
 }
+
+.circleWhats {
+    width: 60px;
+    height: 60px;
+    border-radius: 30%;
+    background-color: #3CE203;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.circleWhats img {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 12px;
+    align-items: center;
+    justify-content: center;
+}

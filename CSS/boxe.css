@@ -303,11 +303,9 @@ section.hero {
     font-weight: 300;
 }
 
-section.gallery-boxe {
-    width: 80%;
-}
-
 .gallery-boxe .interface {
+    width: 80%;
+
     margin-top: 90px;
     text-align: center;
     align-items: center;

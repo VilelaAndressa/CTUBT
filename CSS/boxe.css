@@ -29,8 +29,9 @@ header .logo img {
 
 header .interface {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    width: 85%;
 }
 
 header .menu-desktop nav ul {

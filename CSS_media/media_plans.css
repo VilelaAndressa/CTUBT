@@ -163,7 +163,7 @@
 }
 
 @media screen and (max-width:600px) {
-    
+
     .logo {
         margin: 1.5rem;
         width: 6.5rem;
@@ -283,7 +283,6 @@
     .accordion_txt p {
         width: 250px;
         font-size: 14px;
-
     }
 
     .circleWhats {

@@ -340,6 +340,7 @@
 
     .hero {
         margin: auto;
+
     }
 
     .heroTitle h1 {
@@ -366,9 +367,9 @@
     }
 
     .about {
-        margin: auto;
+        margin: 350px auto 10px;
         width: 320px;
-        height: 632px;
+        height: 768px;
     }
 
     .about_text {
@@ -387,7 +388,7 @@
     .squareAbout {
         width: 250px;
         height: 250px;
-        margin-top: 10rem; 
+        margin-top: 18rem; 
         display: flex;
         flex-direction: column;
         margin-left: -14.2rem ;  
@@ -398,7 +399,7 @@
         width: 250px;
         height: 250px;
         margin-left: -13rem ;  
-        margin-top: 17rem;
+        margin-top: 25rem;
     }
 
     .testimony {
@@ -473,70 +474,50 @@
         font-size: .4rem;
         margin: -20% 60% 50% -10%;
     }
-
-    .price {
-        margin-left: auto;
-        margin: auto;
-        margin-top: -6rem;
-        width: 20rem;
-        height: 10rem;
+    
+    .plans {
+        width: 20%;
+        margin-left: 12%;
+        display: block;
     }
 
-    .bgPrice {
+    .type_plan {
+        width: 180px;
+        height: 300px;
+        margin-top: 100px;
+    }
+
+    .text_type {
+        width: 130px;
+        height: 20px;
+        font-size: 20px;
+        padding-bottom: 15px;
+        margin-top: 70px;
+    }
+
+    .type_plan h1 {
+        padding-top: 40px;
+        font-size: 28px;
+    }
+
+    .plan_check li {
+        font-size: 12px;
+        width: 70%;
+        margin: auto 15%;
+        padding-top: 5px;
+    }
+
+    .btn_plan {
+        width: 100px;
+        height: 20px;
+        font-size: 14px;
         text-align: center;
-        margin-top: 0;
-        margin-left: 5px;
-        width: 6rem;
-        height: 9rem;
-        border: 1px solid #FEB206;
-        margin: auto;
+        margin: 2px 23%;
     }
 
-    .planPrice h2 {
-        margin-top: .5rem;
-        font-size: 1rem;
-    }
-
-    .planPrice h4 {
-        font-size: .6rem;
-        margin-top: 0.3rem;
-    }
-
-    .planPrice h3 {
-        font-size: 1rem;
-        margin-top: 0.3rem;
-    }
-
-    .planPrice h3 span {
-        font-size: 0.6rem;
-    }
-
-    .planPrice p {
-        font-size: 0.4rem;
-        margin-top: -0.6rem;
-
-    }
-
-    .planPrice h6 {
-        font-size: 0.4rem;
-        margin-top: -0.2rem;
-    }
-
-    .planPrice_p {
-        margin-top: 0.6rem;
-        margin-bottom: 0.9rem;
-        font-size: 0.4rem;
-        width: 5rem;
-    }
-
-    .buttonPrice button {
-        width: 5rem;
-        height: 1.2rem;
-        font-weight: 400;
-        font-size: 0.6rem;
-        margin-top: 0;
-        margin-left: -6.5rem;
-        border: #fe0606 solid 1px;
+    .type_plan h6 {
+        margin-top: 5px;
+        font-size: 10px;
     }
 
     .photo {

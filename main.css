@@ -678,7 +678,7 @@ section.schedule {
 
 section.contact {
     margin: 0;
-    background-image: url(../imagens/maps.fundo.png);
+    background-image: url(imagens/maps.fundo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;    

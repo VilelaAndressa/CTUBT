@@ -23,16 +23,34 @@
 </head>
 
 <body>
-    <div class="container">
 
-        <div class="header">
-            <a href="index.html">
-                <img class="logo" src="imagens/LOGO.png" alt="">
-            </a>
-           <ul class="location">
-                <li class="contato"><i class="bi bi-geo-alt-fill"></i>Av. Rua Dom Manuel de Medeiros</li>
-                <li class="contato"><i class="bi bi-whatsapp"></i>(xx)xxxxx-xxxx</li>
-                
+    <header>
+
+        <div class="interface">
+
+            <section class="logo">
+                <img src="imagens/LOGO.png" alt="">
+            </section>
+
+            <section class="menu-desktop">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">Sobre</a></li>
+                        <li class="drop-hover"><a href="#">Artes Marciais <i class="bi bi-caret-down-fill"></i></a>
+                            <div class="drop">
+                                <a href="boxe.html">Boxe</a>
+                                <a href="jiu-jitsu.html">Jiu-Jitsu</a>
+                                <a href="#">Jiu-Jitsu Kids</a>
+                                <a href="muay-thai.html">Muay-Thai</a>
+                            </div>
+                        </li>
+                        <li><a href="plans.html">Planos</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section class="but-menu">
                 <i id="menu_icon" class="bi bi-list" onclick="clickMenu()"></i>
                 <menu id="itens">
                     <ul class="itens_link">
@@ -45,266 +63,261 @@
                         <li class="link"><a href="jiu-jitsu.html">Jiu-Jitsu</a></li>
                         <li class="link"><a href="#">jiu-jitsu kids</a></li>
                         <li class="link"><a href="muay-thai.html">Muay-Thai</a></li>
-                        <li class="link"><a href="#">kimonos</a></li>
-                        <li class="link"><a href="#">VESTIMENTA</a></li>
+                        <li class="link"><a href="clothes.html">VESTIMENTA</a></li>
                         <li class="link"><a href="#">GALERIA</a></li>
                     </ul>
                 </menu>
-            </ul>
-            <ul id="menu_principal">
-                <li class="list"><a href="index.html">Home</a></li>
-                <li class="list"><a href="about.html">Sobre</a></li> 
-                <li class="list"><a href="boxe.html">Boxe</a></li>
-                <li class="list"><a href="jiu-jitsu.html">Jiu-Jitsu</a></li> 
-                <li class="list"><a href="">Jiu-Jitsu Kids</a></li>
-                <li class="list"><a href="muay-thai.html">Muay-Thai</a></li>
-                <li class="list"><a href="plans.html">Planos</a></li>
-            </ul>
+                </ul>
+            </section>
+
         </div>
 
-        <div class="hero">
+    </header>
+
+    <section class="hero">
+        <div class="interface">
             <div class="text_hero">
-                <h1>Encontre o Plano Certo Para Você</h1>
-                <h4>Na UBT, oferecemos planos simplificados para facilitar sua escolha. Encontre o plano certo que
-                    atende às suas necessidades e comece sua jornada de transformação hoje mesmo!</h4>
+                <h1>Encontre <span>o Plano Certo Para</span> Você</h1>
+                <p>Na UBT, oferecemos planos simplificados para facilitar sua escolha. Encontre o plano certo que
+                    atende às suas necessidades e comece sua jornada de transformação hoje mesmo!</p>
             </div>
             <div class="cell_hero">
                 <img src="imagens/phone.png" alt="">
             </div>
         </div>
 
-        <div class="plans">
-            <div class="plan">
-                <div class="text_plan">
-                    <h1>Planos disponíveis</h1>
-                    <h5>descubra a melhor opção para você</h5>
-                </div>
+    </section>
 
-                <div class="type">
+    <section class="plan">
+        <div class="interface">
 
-                    <h2 class="text_type">basico</h2>
-
-                    <div class="type_plan">
-
-                        <h1>R$110,<span>00</span></h1>
-                        <p>por mês</p>
-
-                        <div class="plan_check">
-                            <ul>
-                                <li><i class="bi bi-check"></i>Encontre o plano</li>
-                                <li><i class="bi bi-check"></i>Encontre o plano</li>
-                                <li><i class="bi bi-x"></i>Encontre o plano</li>
-                                <li><i class="bi bi-check"></i>Encontre o plano</li>
-                            </ul>
-                        </div>
-
-                        <button class="btn_plan">eu quero</button>
-                        <h6>Recorrência mensal</h6>
-                        <h6><span>Mais sobre este plano</span></h6>
-                    </div>
-                </div>
-
-                <div class="type">
-
-                    <h2 class="text_type">estudante</h2>
-
-                    <div class="type_plan">
-
-                        <h1>R$50,<span>00</span></h1>
-                        <p>por mês</p>
-
-                        <div class="plan_check">
-                            <ul>
-                                <li><i class="bi bi-check"></i>Encontre o plano</li>
-                                <li><i class="bi bi-check"></i>Encontre o plano</li>
-                                <li><i class="bi bi-x"></i>Encontre o plano</li>
-                                <li><i class="bi bi-check"></i>Encontre o plano</li>
-                            </ul>
-                        </div>
-
-                        <button class="btn_plan">eu quero</button>
-                        <h6>Recorrência mensal</h6>
-                        <h6><span>Mais sobre este plano</span></h6>
-                    </div>
-                </div>
-
-                <div class="type">
-
-                    <h2 class="text_type">premium</h2>
-
-                    <div class="type_plan">
-
-                        <h1>R$130,<span>00</span></h1>
-                        <p>por mês</p>
-
-                        <div class="plan_check">
-                            <ul>
-                                <li><i class="bi bi-check"></i>Encontre o plano</li>
-                                <li><i class="bi bi-check"></i>Encontre o plano</li>
-                                <li><i class="bi bi-x"></i>Encontre o plano</li>
-                                <li><i class="bi bi-check"></i>Encontre o plano</li>
-                            </ul>
-                        </div>
-
-                        <button class="btn_plan">eu quero</button>
-                        <h6>Recorrência mensal</h6>
-                        <h6><span>Mais sobre este plano</span></h6>
-                    </div>
-                </div>
-
-                <div class="type">
-
-                    <h2 class="text_type">kids</h2>
-
-                    <div class="type_plan">
-
-                        <h1>R$110,<span>00</span></h1>
-                        <p>por mês</p>
-
-                        <div class="plan_check">
-                            <ul>
-                                <li><i class="bi bi-check"></i>Encontre o plano</li>
-                                <li><i class="bi bi-check"></i>Encontre o plano</li>
-                                <li><i class="bi bi-x"></i>Encontre o plano</li>
-                                <li><i class="bi bi-check"></i>Encontre o plano</li>
-                            </ul>
-                        </div>
-
-                        <button class="btn_plan">eu quero</button>
-                        <h6>Recorrência mensal</h6>
-                        <h6><span>Mais sobre este plano</span></h6>
-                    </div>
-                </div>
-
+            <div class="title_plan">
+                <h1>Planos disponíveis</h1>
+                <h4>descubra a melhor opção para você</h4>
             </div>
-        </div>
 
-        <div class="accordion_container">
+            <div class="plans">
+
+                <div>
+
+                    <div class="type-plan">
+
+                        <div class="type">
+                            <h2>Basico</h2>
+                        </div>
+
+                        <div class="txt-plan">
+                            <div class="txt-type">
+                                <h2>r$110,<span>00</span></h2>
+                                <p>por mês</p>
+                            </div>
+
+                            <div class="plan_check">
+                                <ul>
+                                    <li><i class="bi bi-check"></i>Encontre o plano</li>
+                                    <li><i class="bi bi-check"></i>Encontre o plano</li>
+                                    <li><i class="bi bi-x"></i>Encontre o plano</li>
+                                    <li><i class="bi bi-check"></i>Encontre o plano</li>
+                                </ul>
+                            </div>
+
+                            <button class="btn_plan">eu quero</button>
+
+                            <h6>Recorrência mensal</h6>
+                            <h6><span>Mais sobre este plano</span></h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+
+                    <div class="type-plan">
+
+                        <div class="type">
+                            <h2>ESTUDANTE</h2>
+                        </div>
+
+                        <div class="txt-plan">
+                            <div class="txt-type">
+                                <h2>r$50,<span>00</span></h2>
+                                <p>por mês</p>
+                            </div>
+
+                            <div class="plan_check">
+                                <ul>
+                                    <li><i class="bi bi-check"></i>Encontre o plano</li>
+                                    <li><i class="bi bi-check"></i>Encontre o plano</li>
+                                    <li><i class="bi bi-x"></i>Encontre o plano</li>
+                                    <li><i class="bi bi-check"></i>Encontre o plano</li>
+                                </ul>
+                            </div>
+
+                            <button class="btn_plan">eu quero</button>
+
+                            <h6>Recorrência mensal</h6>
+                            <h6><span>Mais sobre este plano</span></h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+
+                    <div class="type-plan">
+
+                        <div class="type">
+                            <h2>PREMIUM</h2>
+                        </div>
+
+                        <div class="txt-plan">
+                            <div class="txt-type">
+                                <h2>r$130,<span>00</span></h2>
+                                <p>por mês</p>
+                            </div>
+
+                            <div class="plan_check">
+                                <ul>
+                                    <li><i class="bi bi-check"></i>Encontre o plano</li>
+                                    <li><i class="bi bi-check"></i>Encontre o plano</li>
+                                    <li><i class="bi bi-x"></i>Encontre o plano</li>
+                                    <li><i class="bi bi-check"></i>Encontre o plano</li>
+                                </ul>
+                            </div>
+
+                            <button class="btn_plan">eu quero</button>
+
+                            <h6>Recorrência mensal</h6>
+                            <h6><span>Mais sobre este plano</span></h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+
+                    <div class="type-plan">
+
+                        <div class="type">
+                            <h2>KIDS</h2>
+                        </div>
+
+                        <div class="txt-plan">
+                            <div class="txt-type">
+                                <h2>r$110,<span>00</span></h2>
+                                <p>por mês</p>
+                            </div>
+
+                            <div class="plan_check">
+                                <ul>
+                                    <li><i class="bi bi-check"></i>Encontre o plano</li>
+                                    <li><i class="bi bi-check"></i>Encontre o plano</li>
+                                    <li><i class="bi bi-x"></i>Encontre o plano</li>
+                                    <li><i class="bi bi-check"></i>Encontre o plano</li>
+                                </ul>
+                            </div>
+
+                            <button class="btn_plan">eu quero</button>
+
+                            <h6>Recorrência mensal</h6>
+                            <h6><span>Mais sobre este plano</span></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="faq-plan">
+        <div class="interface">
+
             <div class="title_accordion">
                 <img src="imagens/think.png" alt="">
                 <h3>Perguntas frequentes</h3>
             </div>
 
-            <div class="accordion">
-                <details class="accordion_txt">
-                    <summary>
-                        <span>
-                            O que é o plano basico?
-                        </span>
-                        <i id="accordion_icon" class="bi bi-arrow-down-circle"></i>
-                    </summary>
-                    <div>
-                        <p>Esse pode ser o texto final da resposta da pergunta número um. Ele pode ter uma, duas, três
-                            ou várias linhas. O importante é ser a resposta ideal e pergunta número um.</p>
-                    </div>
-                </details>
+            <div class="faq">
 
-                <details class="accordion_txt">
-                    <summary>
-                        <span>
-                            Aqui vai outra pergunta logo abaixo mas dessa vez será que cabe em mais linhas?
-                        </span>
-                        <i id="accordion_icon" class="bi bi-arrow-down-circle"></i>
-                    </summary>
-                    <div>
-                        <p>Esse pode ser o texto final da resposta da pergunta número um. Ele pode ter uma, duas, três
-                            ou várias linhas. O importante é ser a resposta ideal e pergunta número um.</p>
-                    </div>
+                <details>
+                    <summary>O que é o plano de recorrência mensal? <i class="bi bi-arrow-down-circle"></i></summary>
+                    <p>O plano de recorrência mensal permite que você pague uma taxa fixa a cada mês para ter acesso
+                        contínuo às nossas aulas e instalações, sem precisar se preocupar com renovações manuais.
+                    </p>
                 </details>
-
-                <details class="accordion_txt">
-                    <summary>
-                        <span>
-                            O que é o plano basico?
-                        </span>
-                        <i id="accordion_icon" class="bi bi-arrow-down-circle"></i>
-                    </summary>
-                    <div>
-                        <p>Esse pode ser o texto final da resposta da pergunta número um. Ele pode ter uma, duas, três
-                            ou várias linhas. O importante é ser a resposta ideal e pergunta número um.</p>
-                    </div>
+                <details>
+                    <summary>Posso experimentar uma aula antes de escolher um plano? <i
+                            class="bi bi-arrow-down-circle"></i></summary>
+                    <p>Sim, oferecemos uma aula experimental gratuita para novos alunos. Essa é uma ótima maneira de
+                        conhecer nossos instrutores
+                        e a metodologia de ensino antes de se comprometer com um plano.
+                    </p>
                 </details>
-
-                <details class="accordion_txt">
-                    <summary>
-                        <span>
-                            Aqui vai outra pergunta logo abaixo mas dessa vez será que cabe em mais linhas?
-                        </span>
-                        <i id="accordion_icon" class="bi bi-arrow-down-circle"></i>
+                <details>
+                    <summary>Os planos incluem acesso a todas as modalidades de treino? <i
+                            class="bi bi-arrow-down-circle"></i>
                     </summary>
-                    <div>
-                        <p>Esse pode ser o texto final da resposta da pergunta número um. Ele pode ter uma, duas, três
-                            ou várias linhas. O importante é ser a resposta ideal e pergunta número um.</p>
-                    </div>
+                    <p>Alguns planos são específicos para certas modalidades, como Jiu-Jitsu, Muay Thai ou Boxe. Também
+                        oferecemos
+                        planos combinados que permitem acesso a todas as modalidades disponíveis.
+                    </p>
                 </details>
-
+                <details>
+                    <summary>Quais são as formas de pagamento aceitas? <i class="bi bi-arrow-down-circle"></i></summary>
+                    <p>Aceitamos pagamentos em dinheiro, cartões de débito e crédito, e também oferecemos a opção de
+                        pagamento por transferência bancária.
+                    </p>
+                </details>
+                <details>
+                    <summary>Posso mudar para outro plano se quiser? <i class="bi bi-arrow-down-circle"></i></summary>
+                    <p>Sim, você pode mudar para outro plano a qualquer momento. Se desejar fazer um upgrade, a mudança
+                        pode ser feita imediatamente. Para downgrades, entre em contato com a administração para avaliar
+                        o melhor momento para a mudança.
+                    </p>
+                </details>
             </div>
-            
-            <div class="accordion">
-                <details class="accordion_txt">
-                    <summary>
-                        <span>
-                            O que é o plano basico?
-                        </span>
-                        <i id="accordion_icon" class="bi bi-arrow-down-circle"></i>
-                    </summary>
-                    <div>
-                        <p>Esse pode ser o texto final da resposta da pergunta número um. Ele pode ter uma, duas, três
-                            ou várias linhas. O importante é ser a resposta ideal e pergunta número um.</p>
-                    </div>
-                </details>
 
-                <details class="accordion_txt">
-                    <summary>
-                        <span>
-                            Aqui vai outra pergunta logo abaixo mas dessa vez será que cabe em mais linhas?
-                        </span>
-                        <i id="accordion_icon" class="bi bi-arrow-down-circle"></i>
-                    </summary>
-                    <div>
-                        <p>Esse pode ser o texto final da resposta da pergunta número um. Ele pode ter uma, duas, três
-                            ou várias linhas. O importante é ser a resposta ideal e pergunta número um.</p>
-                    </div>
-                </details>
+        </div>
+    </section>
 
-                <details class="accordion_txt">
-                    <summary>
-                        <span>
-                            O que é o plano basico?
-                        </span>
-                        <i id="accordion_icon" class="bi bi-arrow-down-circle"></i>
-                    </summary>
-                    <div>
-                        <p>Esse pode ser o texto final da resposta da pergunta número um. Ele pode ter uma, duas, três
-                            ou várias linhas. O importante é ser a resposta ideal e pergunta número um.</p>
-                    </div>
-                </details>
+    <section class="footer">
 
-                <details class="accordion_txt">
-                    <summary>
-                        <span>
-                            Aqui vai outra pergunta logo abaixo mas dessa vez será que cabe em mais linhas?
-                        </span>
-                        <i id="accordion_icon" class="bi bi-arrow-down-circle"></i>
-                    </summary>
-                    <div>
-                        <p>Esse pode ser o texto final da resposta da pergunta número um. Ele pode ter uma, duas, três
-                            ou várias linhas. O importante é ser a resposta ideal e pergunta número um.</p>
-                    </div>
-                </details>
-
+        <div class="interface">
+            <div class="footer-container">
+                <div class="footer-contact">
+                    <h4>Contato</h4>
+                    <p>Endereço: Rua Exemplo, 123</p>
+                    <p>Telefone: (11) 1234-5678</p>
+                    <p>Email: contato@ubt.com</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="about.html">Sobre Nós</a></li>
+                        <li><a href="#">Serviços</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Redes Sociais</h4>
+                    <a href="#"><i class="bi bi-instagram"></i> Instagram</a>
+                    <a href="#"><i class="bi bi-whatsapp"></i> Whatsapp</a>
+                </div>
             </div>
         </div>
 
-        <div class="footer">
-            <h2>Centro de Treinamento UBT</h2>
-        </div>
+    </section>
 
-    </div>
+    <section class="footer-bottom">
+        <div>
+            <div class="footer-copyright">
+                <p>&copy; 2024 UBT. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </section>
 
     <div class="circleWhats"><a href=""><img src="imagens/whatsFixer.svg" alt=""></a></div>
 
     <script src="JS/script.js"></script>
+
 </body>
 
 </html>

@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
 
@@ -16,7 +17,6 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 999999;
 }
 
 header:hover {
@@ -38,7 +38,7 @@ header .menu-desktop nav ul {
     list-style: none;
     display: flex;
 }
- 
+
 header .menu-desktop nav ul li a {
     text-decoration: none;
     padding: 10px 30px;
@@ -58,7 +58,7 @@ header .menu-desktop nav ul li a:hover {
 
 .drop-hover .drop {
     position: absolute;
-    background-color:#FFCB0C;
+    background-color: #FFCB0C;
     width: 100%;
     height: 0;
     overflow: hidden;
@@ -143,236 +143,180 @@ menu h1 {
     color: #ffffff;
 }
 
-.link a:hover {
-    color: #000;
-}
-
 li a {
     text-decoration: none;
 }
 
 section.hero {
-    width: 100%;
     background-color: #322C36;
-    height: 90vh;
+    color: #fff;
+    height: 50vh;
 }
 
 .hero .interface {
-    width: 80%;
+    width: 70%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding-top: 140px;
+    justify-content: space-between;
 }
 
-.hero .text_hero {
+.hero .img-hero img {
+    width: 66%;
+    margin-top: 52px;
+}
+
+.hero .txt-hero h1 {
+    width: 260px;
+    font-size: 2.5em;
+    font-weight: 300;
+    font-style: italic;
     text-transform: uppercase;
+    padding-top: 90px;
 }
 
-.hero h1 {
-    width: 337px;
-    height: 141px;
-    font-size: 3rem;
+.hero .txt-hero h1 span {
     color: #FFCB0C;
     font-weight: 700;
 }
 
-.hero h1 span {
-    font-weight: 300;
-    color: #fff;
-    font-style: italic;
+section.about {
+    width: 80%;
+    margin: 30px auto;
 }
 
-.hero .text_hero p {
-    line-height: 22px;
-    margin-top: 60px;
-    width: 635px;
-    height: 60px;
-    font-weight: 400;
-    color: #fff;
+.about .txt-card {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
 }
 
-section.plan {
+.about .txt-card i {
+    padding-right: 5px;
+    color: #FFCB0C;
+}
+
+.about .txt-about h1 {
     text-align: center;
     margin-top: 90px;
 }
 
-.plan .interface {
-    width: 80%;
-    margin: auto;
-}
-
-.plan .title_plan h1{
-    text-transform: capitalize;
-    font-size: 34PX;
-    margin-bottom: 30px;
-}
-
-.plan .title_plan h4 {
-    text-transform: capitalize;
+.about .txt-about h2 {
+    margin: 40px auto 30px;
     color: #FFCB0C;
-    font-size: 24px;
+    text-transform: capitalize;
+}
+
+.about .txt-about p {
+    font-size: 20px;
+}
+
+.clothes .interface {
+    margin-top: 90px;
+    width: 80%;
+}
+
+.clothes h1 {
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.clothes h1 span {
+    color: #FFCB0C;
+}
+
+.clothes .card-body {
+    display: flex;
+    gap: 10%;
     margin-bottom: 90px;
 }
 
-.plans {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2%;
+.clothes .card {
+    background-color: #dbdbdb;
+}
+
+.clothes .card-txt {
     margin-top: 20px;
-}
-
-.type-plan {
-    width: 243px;
-    height: 457px;
-}
-
-.plan .txt-plan {
-    width: 200px;
-    height: 440px;
-    background-color: #322C36;
-    border-radius: 15px;
-    clip-path: polygon(50% 100%, 100% 86%, 100% 0, 0 0, 0 86%);
-}
-
-.plan .type-plan .type {
-    width: 145px;
-    height: 50px;
-    font-size: 16px;
-    margin-left: 28px;
-    padding-top: 20px;
-    margin-top: -40px;
-    background-color: #FAA846;
-    text-align: center;
     text-transform: uppercase;
-    color: #fff;
-    position: absolute;
-    clip-path: polygon(0 4%, 100% 20%, 100% 82%, 0% 100%);
-    z-index: 1;
+    width: 90%;
+    margin-left: 5px;
 }
 
-.txt-type h2 {
-    padding-top: 50px;
-    text-align: center;
-    color: #FAA846;
-    font-size: 38px;
-    text-transform: capitalize;
-}
-
-.txt-type h2 span {
-    font-size: 24px;
-}
-
-.txt-type p {
-    font-size: 12px;
-    color: #fff;
-    margin-top: 5px;
-    font-weight: 400;
-    margin-left: 50%;
-    padding-bottom: 10px;
-}
-
-.type-plan .plan_check i {
-    color: #FAA846;
-    padding-right: 5px;
-}
-
-.type-plan .plan_check li {
-    color: #fff;
-    font-size: 16px;
+.card .card-txt h5 {
+    text-decoration: line-through;
     font-weight: 300;
-    margin: auto;
-    list-style: none;
-    padding:10px 0;
-    border-bottom: #fff solid 1px;
-    width: 150px;
+    margin: 5px auto;
 }
 
-.btn_plan {
-    border: 2px solid #FAA846;
-    background: none;
-    border-radius: 50px;
-    width: 150px;
-    height: 40px;
-    margin: 15px auto 10px;
-    font-weight: 500;
-    font-size: 20px;
-    text-transform: uppercase;
-    color: #fff;
-    cursor: pointer;
+.card .card-txt h2 {
+    color: #FFCB0C;
+    margin-bottom: 10px;
 }
 
-.btn_plan:hover {
-    background: #FFCB0C;
-    color: #000;
-    border: none;
-}
-
-.txt-plan h6 {
-    color: #fff;
+.card .card-txt p {
     font-size: 12px;
-    font-weight: 400;
-    margin-top: 10px;
-    text-align: center;
+    margin-bottom: 10px;
+    color: #969696;
 }
 
-.txt-plan h6 span {
-    color: #ff0000;
+section.buy, section.contact  {
+    background-color:#36303a;
 }
 
-.faq-plan {
-    background-color: #36303a;
-    margin-top: 90px;
-}
-
-.faq-plan .interface {
-    display: block;
+.buy .interface {
     width: 80%;
-    margin: auto;
+    padding-bottom: 60px;
 }
 
-.faq-plan .title_accordion {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: capitalize;
-    font-size: 24px;
+.buy h2 {
+    text-transform: uppercase;
+    padding-top: 30px;
+    color: #FFCB0C;
+}
+
+.buy p {
+    font-size: 20px;
+    padding-top: 30px;
     color: #fff;
-    padding-top: 60px;
 }
 
-.faq-plan .faq {
+.contact .interface {
     width: 80%;
-    margin: 90px auto 0;
-    padding-bottom: 120px;
+    display: flex;
 }
 
-.faq-plan details {
-    border-bottom: 1px solid #FAA846;
-    padding-bottom: 30px;
+.contact h2 {
+    text-transform: uppercase;
+    margin: 40px auto;
+    color: #FFCB0C;
+}
+
+.contact p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.contact .contact-social {
+    width: 30%;
     margin-top: 30px;
 }
 
-.faq-plan .faq summary {
-    font-size: 22px;
-    font-weight: 500;
+.contact .contact-social h3 {
+    margin: 20px auto;
+    text-transform: capitalize;
     color: #FFCB0C;
-    padding: 10px 0 20px;
-    list-style-type:none;
-    display: flex;
-    justify-content: space-between;
 }
 
-.faq-plan .faq summary i {
-    color: #3767dfd2;
+.contact .contact-social p i {
+    color: #FFCB0C;
+    padding-right: 10px;
 }
 
-.faq-plan .faq p {
-    font-size: 16px;
-    color: #fff;
-    font-weight: 400;
-    width: 80%;
+.contact .contact-social p {
+    margin: 20px auto;
+}
+
+.contact .img-contact {
+    padding-bottom: 60px;
 }
 
 .footer {

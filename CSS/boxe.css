@@ -143,6 +143,10 @@ menu h1 {
     color: #ffffff;
 }
 
+.link a:hover {
+    color: #000;
+}
+
 li a {
     text-decoration: none;
 }

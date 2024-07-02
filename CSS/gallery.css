@@ -5,6 +5,10 @@
     font-family: "Roboto", sans-serif;
 }
 
+body {
+    background-color: #36303ad5;
+}
+
 .interface {
     max-width: 1280px;
     margin: 0 auto;
@@ -17,6 +21,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 3;
 }
 
 header:hover {
@@ -38,7 +43,7 @@ header .menu-desktop nav ul {
     list-style: none;
     display: flex;
 }
-
+ 
 header .menu-desktop nav ul li a {
     text-decoration: none;
     padding: 10px 30px;
@@ -58,7 +63,7 @@ header .menu-desktop nav ul li a:hover {
 
 .drop-hover .drop {
     position: absolute;
-    background-color: #FFCB0C;
+    background-color:#FFCB0C;
     width: 100%;
     height: 0;
     overflow: hidden;
@@ -151,176 +156,137 @@ li a {
     text-decoration: none;
 }
 
-section.hero {
-    background-color: #322C36;
-    color: #fff;
-    height: 50vh;
+input {
+    display: none;
 }
 
-.hero .interface {
-    width: 70%;
+.gallery {
+    width: 100%;
+    text-align: center;
+}
+
+.gallery h1 {
+    text-transform: uppercase;
+    color: #fff;
+    margin: 180px auto 60px;
+}
+
+.gallery .top-gallery {
+    background-color: #322C36;
+    width: 90%;
+    margin: 0 auto 20px auto;
+    height: 60px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
-.hero .img-hero img {
-    width: 66%;
-    margin-top: 52px;
-}
-
-.hero .txt-hero h1 {
-    width: 260px;
-    font-size: 2.5em;
-    font-weight: 300;
-    font-style: italic;
-    text-transform: uppercase;
-    padding-top: 90px;
-}
-
-.hero .txt-hero h1 span {
-    color: #FFCB0C;
-    font-weight: 700;
-}
-
-section.about {
-    width: 80%;
-    margin: 30px auto;
-}
-
-.about .txt-card {
-    display: flex;
-    justify-content: space-between;
-    text-transform: uppercase;
-}
-
-.about .txt-card i {
-    padding-right: 5px;
-    color: #FFCB0C;
-}
-
-.about .txt-about h1 {
-    text-align: center;
-    margin-top: 90px;
-}
-
-.about .txt-about h2 {
-    margin: 40px auto 30px;
-    color: #FFCB0C;
+.gallery .top-gallery h3 {
     text-transform: capitalize;
+    height: 100%;
+    background-color: #FFCB0C;
+    line-height: 60px;
+    padding: 0 50px;
+    color: #fff;
 }
 
-.about .txt-about p {
-    font-size: 20px;
+label {
+    display: inline-block;
+    height: 100%;
+    margin: 0 20px;
+    line-height: 60px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    transition: .5s;
+    text-transform: capitalize;
+    font-weight: 600;
 }
 
-.clothes .interface {
-    margin-top: 90px;
-    width: 80%;
-}
-
-.clothes h1 {
-    text-transform: uppercase;
-    margin-bottom: 60px;
-}
-
-.clothes h1 span {
+label:hover {
     color: #FFCB0C;
+    border-bottom: 3px solid #FFCB0C;
+    margin-top: -10px;
 }
 
-.clothes .card-body {
-    display: flex;
-    gap: 10%;
-    margin-bottom: 90px;
-}
-
-.clothes .card {
-    background-color: #dbdbdb;
-}
-
-.clothes .card-txt {
-    margin-top: 20px;
-    text-transform: uppercase;
+.photo-gallery {
     width: 90%;
-    margin-left: 5px;
+    margin: 30px auto;
+    column-count: 4;
+    column-gap: 15px;
+    transition: .6s;
 }
 
-.card .card-txt h5 {
-    text-decoration: line-through;
-    font-weight: 300;
-    margin: 5px auto;
+.photo-gallery .pic img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 3px 3px 3px #322c36cb;
 }
 
-.card .card-txt h2 {
-    color: #FFCB0C;
-    margin-bottom: 10px;
+#check1:checked ~ .gallery .photo-gallery .pic {
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
 }
 
-.card .card-txt p {
-    font-size: 12px;
-    margin-bottom: 10px;
-    color: #969696;
+#check2:checked ~ .gallery .photo-gallery .boxe {
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
 }
 
-section.buy, section.contact  {
-    background-color:#36303a;
+#check2:checked ~ .gallery .photo-gallery .jiu,
+#check2:checked ~ .gallery .photo-gallery .kids,
+#check2:checked ~ .gallery .photo-gallery .muay {
+    opacity: 0;
+    transform: scale(0);
+    position: absolute;
+    transition: 0s;
 }
 
-.buy .interface {
-    width: 80%;
-    padding-bottom: 60px;
+#check3:checked ~ .gallery .photo-gallery .jiu {
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
 }
 
-.buy h2 {
-    text-transform: uppercase;
-    padding-top: 30px;
-    color: #FFCB0C;
+#check3:checked ~ .gallery .photo-gallery .boxe,
+#check3:checked ~ .gallery .photo-gallery .kids,
+#check3:checked ~ .gallery .photo-gallery .muay {
+    opacity: 0;
+    transform: scale(0);
+    position: absolute;
+    transition: 0s;
 }
 
-.buy p {
-    font-size: 20px;
-    padding-top: 30px;
-    color: #fff;
+#check4:checked ~ .gallery .photo-gallery .kids {
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
 }
 
-.contact .interface {
-    width: 80%;
-    display: flex;
+#check4:checked ~ .gallery .photo-gallery .boxe,
+#check4:checked ~ .gallery .photo-gallery .jiu,
+#check4:checked ~ .gallery .photo-gallery .muay {
+    opacity: 0;
+    transform: scale(0);
+    position: absolute;
+    transition: 0s;
 }
 
-.contact h2 {
-    text-transform: uppercase;
-    margin: 40px auto;
-    color: #FFCB0C;
+#check5:checked ~ .gallery .photo-gallery .muay {
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
 }
 
-.contact p {
-    font-size: 20px;
-    color: #fff;
-}
-
-.contact .contact-social {
-    width: 30%;
-    margin-top: 30px;
-}
-
-.contact .contact-social h3 {
-    margin: 20px auto;
-    text-transform: capitalize;
-    color: #FFCB0C;
-}
-
-.contact .contact-social p i {
-    color: #FFCB0C;
-    padding-right: 10px;
-}
-
-.contact .contact-social p {
-    margin: 20px auto;
-}
-
-.contact .img-contact {
-    padding-bottom: 60px;
+#check5:checked ~ .gallery .photo-gallery .boxe,
+#check5:checked ~ .gallery .photo-gallery .jiu,
+#check5:checked ~ .gallery .photo-gallery .kids {
+    opacity: 0;
+    transform: scale(0);
+    position: absolute;
+    transition: 0s;
 }
 
 .footer {

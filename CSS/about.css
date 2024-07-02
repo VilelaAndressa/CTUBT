@@ -196,7 +196,7 @@ li a {
 
 .story_txt {
     width: 80%;
-    height: 85vh;
+    height: 75vh;
     margin: auto;
 }
 
@@ -220,7 +220,7 @@ li a {
     color: #ffffff;
     text-align: justify;
     margin: 30px auto;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 500;
     line-height: normal;
 }

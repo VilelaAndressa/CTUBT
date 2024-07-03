@@ -191,8 +191,7 @@ section.hero {
     font-weight: 500;
 }
 
-.hero button,
-.teachers button {
+.hero button, .teachers button {
     margin: 50px 10px 0 0;
     width: 150px;
     height: 50px;
@@ -206,8 +205,7 @@ section.hero {
     cursor: pointer;
 }
 
-.hero button:hover,
-.teachers button:hover {
+.hero button:hover, .teachers button:hover {
     background-color: #FFCB0C;
     color: #000;
 }

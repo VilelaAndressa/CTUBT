@@ -1,0 +1,298 @@
+@media screen and (max-width: 980px) {
+    header .menu-desktop nav ul li a {
+        font-size: 18px;
+    }
+
+    .drop-hover .drop a {
+        padding: 22px;
+    }
+
+    .but-menu #menu_icon {
+        font-size: 50px;
+    }
+
+    .itens_link {
+        top: 0;
+        right: 0;
+    }
+
+    menu h1 {
+        padding-top: 15px;
+    }
+
+    /* about */
+
+    section.about {
+        margin-top: 30px;
+    }
+
+    .about .interface {
+        flex-direction: column;
+    }
+
+    .about .text-about {
+        width: 80%;
+    }
+
+    .about .img-about img {
+        width: 250px;
+        height: 260px;
+        margin: 30px auto 0;
+    }
+
+    /* story */
+
+    .story_txt h1 {
+        font-size: 22px;
+    }
+
+    .story_txt h3 {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .story_txt p {
+        font-size: 16px;
+    }
+
+    .view-more {
+        margin-bottom: 56px;
+    }
+
+    .view-more .view-more_content {
+        max-height: 300px;
+        overflow: hidden;
+        margin-bottom: 8px;
+        position: relative;
+    }
+
+    .view-more.view-more--expand .view-more_content {
+        max-height: unset;
+    }
+
+    .view-more:not(.view-more--expand) .view-more_content::after {
+        content: "";
+        bottom: 0;
+        position: absolute;
+        width: 100%;
+        height: 162px;
+    }
+
+    .view-more:not(.view-more--expand) .view-more-collapse {
+        display: none;
+    }
+
+    .view-more.view-more--expand .view-more-expand {
+        display: none;
+    }
+
+    .view-more .view-more_actions {
+        text-align: center;
+        width: 100%;
+    }
+
+    .view-more .view-more_actions button {
+        color: #FFCB0C;
+        outline: none;
+        border: none;
+        background-color: transparent;
+        text-transform: lowercase;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        cursor: pointer;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    /* space */
+
+    .space_txt h1 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .space_img {
+        width: 60%;
+        margin: 0;
+    }
+
+    .space_img img {
+        width: 180px;
+        height: 180px;
+        margin: 20px;
+        border: #FFCB0C solid 4px;
+    }
+
+    /* ethics */
+
+    .ethics_txt h1 {
+        font-size: 24px;
+        padding-top: 30px;
+    }
+
+    .ethics_txt p {
+        font-size: 18px;
+    }
+
+    /* testimony */
+
+    .testimony {
+        height: 40vh;
+    }
+
+    .title_testimony {
+        padding-top: 30px;
+    }
+
+    .title_testimony h1 {
+        font-size: 24px;
+    }
+
+    .title_testimony p {
+        font-size: 20px;
+    }
+
+    .testimony i {
+        font-size: 50px;
+    }
+
+    .testimony p.testimony_txt {
+        font-size: 18px;
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .slide .person p.name_person {
+        font-size: 16px;
+    }
+
+    /* contact */
+
+    .contact .interface {
+        width: 80%;
+        padding: 60px 0 0;
+        display: block;
+    }
+
+    .contact form {
+        padding: 20px;
+    }
+
+    form input,
+    form textarea {
+        width: 90%;
+        padding: 20px 30px;
+    }
+
+    .contact .title-contact {
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    .contact .location {
+        margin-top: 30px;
+    }
+
+    .contact .location p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /* gallery e teacher */
+
+    section.photo,
+    .teachers {
+        height: 95vh;
+    }
+
+    .testimony {
+        height: 50vh;
+    }
+
+    .space_img img {
+        width: 160px;
+        height: 160px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .menu-desktop {
+        display: none;
+    }
+
+    .testimony {
+        height: 75vh;
+    }
+
+    /* space */
+
+    .space_txt h1 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .space_img {
+        width: 60%;
+        margin: 0;
+    }
+
+    .space_img img {
+        width: 90px;
+        height: 90px;
+        margin: 7px;
+        border: #FFCB0C solid 4px;
+    }
+
+    /* contact */
+
+    .contact .interface {
+        width: 80%;
+        padding: 60px 0 0;
+        display: block;
+    }
+
+    .contact form {
+        padding: 20px;
+    }
+
+    form input,
+    form textarea {
+        width: 90%;
+        padding: 20px 15px;
+    }
+
+    .contact .title-contact {
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    .contact .location {
+        margin-top: 30px;
+    }
+
+    .contact .location p {
+        font-size: 16px;
+    }
+
+    /* footer */
+
+    .footer .interface {
+        padding-top: 30px;
+    }
+
+    .footer-contact h4,
+    .footer-links h4,
+    .footer-social h4 {
+        font-size: 14px;
+    }
+
+    .footer-contact p,
+    .footer-links ul li,
+    .footer-social a {
+        font-size: 8px;
+    }
+}

@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="CSS/swiper-bundle.min.css">
+    <link rel="icon" href="./imagens/Logo.svg">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="CSS/jiu-kids.css">
+    <title>Centro de Treinamento UBT</title>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="interface">
+
+            <section class="logo">
+                <img src="imagens/LOGO.png" alt="">
+            </section>
+
+            <section class="menu-desktop">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">Sobre</a></li>
+                        <li class="drop-hover"><a href="#">Artes Marciais <i class="bi bi-caret-down-fill"></i></a>
+                            <div class="drop">
+                                <a href="boxe.html">Boxe</a>
+                                <a href="jiu-jitsu.html">Jiu-Jitsu</a>
+                                <a href="jiu-kids.html">Jiu-Jitsu Kids</a>
+                                <a href="muay-thai.html">Muay-Thai</a>
+                            </div>
+                        </li>
+                        <li><a href="plans.html">Planos</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section class="but-menu">
+                <i id="menu_icon" class="bi bi-list" onclick="clickMenu()"></i>
+                <menu id="itens">
+                    <ul class="itens_link">
+                        <h1>CTUBT</h1>
+                        <img class="logo_menu" src="imagens/LOGO.gif" alt="">
+
+                        <li class="link"><a href="about.html">Sobre</a></li>
+                        <li class="link"><a href="plans.html">PLANOS</a></li>
+                        <li class="link"><a href="boxe.html">BOXE</a></li>
+                        <li class="link"><a href="jiu-jitsu.html">Jiu-Jitsu</a></li>
+                        <li class="link"><a href="jiu-kids.html">jiu-jitsu kids</a></li>
+                        <li class="link"><a href="muay-thai.html">Muay-Thai</a></li>
+                        <li class="link"><a href="clothes.html">VESTIMENTA</a></li>
+                        <li class="link"><a href="gallery.html">GALERIA</a></li>
+                    </ul>
+                </menu>
+                </ul>
+            </section>
+
+        </div>
+
+    </header>
+
+    <section class="hero">
+        <div class="interface">
+
+            <div class="txt-hero">
+                <h1>Cada queda <span>é uma nova chance</span> de recomeçar.</h1>
+                <p>Encontre a força em cada movimento, onde cada desafio se transforma em uma oportunidade para
+                    ultrapassar barreiras e fortalecer tanto o corpo quanto a mente.</p>
+
+
+                <a href="#">
+                    <button>agende sua aula</button>
+                </a>
+                <a href="#">
+                    <button>ler mais</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+
+        <div class="interface">
+
+            <div class="text-about">
+                <h1>Sobre o Jiu-Jitsu Kids na UBT</h1>
+
+                <p>Na UBT, acreditamos que o Jiu-Jitsu é uma excelente forma de promover o desenvolvimento físico,
+                    mental e emocional das crianças. Nosso programa Jiu-Jitsu Kids é especialmente desenhado para
+                    introduzir os pequenos ao mundo do Jiu-Jitsu de maneira segura, divertida e educativa.</p>
+                <p>No Jiu-Jitsu Kids da UBT, não se trata apenas de técnicas de luta; é uma prática que integra corpo e
+                    mente de maneira profunda. Aqui, as crianças aprenderão desde os fundamentos até técnicas avançadas,
+                    enquanto desenvolvem autoconfiança, resiliência e concentração. Nosso compromisso com um ambiente
+                    acolhedor e inclusivo garante que todos os pequenos praticantes, desde iniciantes até avançados,
+                    possam encontrar seu caminho para o crescimento pessoal e esportivo.</p>
+                <p>Venha se juntar a nós em uma jornada de superação contínua, saúde e bem-estar. Na UBT, acreditamos
+                    que o Jiu-Jitsu não só fortalece o corpo das crianças, mas também enriquece suas vidas, promovendo
+                    valores de camaradagem e respeito mútuo.</p>
+            </div>
+
+            <div class="img-about">
+                <img src="imagens/kids/kids-bg.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="benefits">
+        <div class="interface">
+
+            <div class="text-benefits">
+                <h1>benefícios do Jiu-Jitsu kids</h1>
+
+                <h4>
+                    Explore como o Jiu-Jitsu pode transformar sua vida. A prática regular deste esporte não só melhora
+                    sua forma física,
+                    mas também oferece uma série de benefícios mentais e emocionais. Aqui estão alguns dos principais
+                    benefícios que
+                    você pode esperar ao treinar Jiu-Jitsu na UBT:
+                </h4>
+            </div>
+
+            <article class="benef-container">
+                <div class="txt-itens">
+                    <h2>Disciplina e <span>Respeito:</span></h2>
+                    <p>
+                        Nossas aulas ensinam valores fundamentais como disciplina, respeito e autocontrole. </p>
+                </div>
+                <div class="img-benef">
+                    <img src="imagens/kids/kids-05.jpg" alt="">
+                </div>
+            </article>
+
+            <article class="benef-container">
+
+                <div class="img-benef">
+                    <img src="imagens/kids/kids-03.webp" alt="">
+                </div>
+                <div class="txt-itens">
+                    <h2>Condição <span>Física:</span></h2>
+                    <p>
+                        O Jiu-Jitsu ajuda a melhorar a coordenação motora, a flexibilidade e a força física das
+                        crianças. </p>
+                </div>
+
+            </article>
+
+            <article class="benef-container">
+                <div class="txt-itens">
+                    <h2> Confiança e <span>Autoestima:</span></h2>
+                    <p>
+                        Ao aprender novas habilidades e superar desafios, as crianças desenvolvem uma maior confiança em
+                        si mesmas. </p>
+                </div>
+
+                <div class="img-benef">
+                    <img src="imagens/kids/kids-02.webp" alt="">
+                </div>
+            </article>
+            <article class="benef-container">
+
+                <div class="img-benef">
+                    <img src="imagens/kids/kids-06.webp" alt="">
+                </div>
+
+                <div class="txt-itens">
+                    <h2>Socialização:</h2>
+                    <p>
+                        As aulas oferecem um ambiente social positivo, onde as crianças podem fazer novos amigos e
+                        aprender a trabalhar em equipe. </p>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="interface">
+            <div class="text-gallery">
+                <h1>Galeria De Fotos</h1>
+                <p>
+                    Navegue pelas fotos e sinta a energia e o espírito de nossa comunidade de praticantes de Jiu-Jitsu.
+                </p>
+            </div>
+
+            <div class="gallery-photo">
+                <div class="photo">
+                    <img src="imagens/kids/kids-02.webp" alt="">
+                </div>
+                <div class="photo">
+                    <img src="imagens/kids/kids-04.jpg" alt="">
+                </div>
+                <div class="photo">
+                    <img src="imagens/kids/kids-about.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="teachers">
+        <div class="interface">
+
+            <div class="txt-title">
+                <h3>Conheça Nossos Proficionais</h3>
+                <h1>Os Professores Do kids</h1>
+                <p>Na UBT, temos um time de profissionais dedicados e experientes que se comprometem a oferecer o melhor
+                    treinamento de Jiu-Jitsu para as crianças. Nossos professores são mais do que instrutores; são
+                    mentores que se preocupam com o desenvolvimento físico, mental e emocional de cada aluno.
+                </p>
+            </div>
+
+            <div class="teacher-container">
+                <div class="teacher">
+                    <div class="img-teacher">
+                        <img src="imagens/kids/kids-prof-02.jpeg" alt="">
+                    </div>
+
+                    <div class="txt-teacher">
+                        <h4>Sobre o Professor</h4>
+                        <h2>Jaime</h2>
+                        <h4>jiu-jitsu kids</h4>
+                        <p>Explore o universo do Boxe na UBT, onde cada soco é uma expressão de disciplina e
+                            determinação.
+                            Nossos instrutores dedicados o acompanharão em uma jornada de autodescoberta, física e
+                            mental.
+                            Desafie-se e aprimore suas habilidades conosco.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="teacher">
+                    <div class="img-teacher">
+                        <img src="imagens/kids/kids-prof-01.jpeg" alt="">
+                    </div>
+
+                    <div class="txt-teacher">
+                        <h4>Sobre o Professor</h4>
+                        <h2>lorena peixoto</h2>
+                        <h4>jiu-jitsu kids</h4>
+                        <p>Explore o universo do Boxe na UBT, onde cada soco é uma expressão de disciplina e
+                            determinação.
+                            Nossos instrutores dedicados o acompanharão em uma jornada de autodescoberta, física e
+                            mental.
+                            Desafie-se e aprimore suas habilidades conosco.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="teacher">
+                    <div class="img-teacher">
+                        <img src="imagens/kids/kids-prof-03.jpeg" alt="">
+                    </div>
+
+                    <div class="txt-teacher">
+                        <h4>Sobre o Professor</h4>
+                        <h2>pedro vitor</h2>
+                        <h4>jiu-jitsu kids</h4>
+                        <p>Explore o universo do Boxe na UBT, onde cada soco é uma expressão de disciplina e
+                            determinação.
+                            Nossos instrutores dedicados o acompanharão em uma jornada de autodescoberta, física e
+                            mental.
+                            Desafie-se e aprimore suas habilidades conosco.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-jiu">
+        <div class="interface">
+
+            <div class="title_accordion">
+                <img src="imagens/think.png" alt="">
+                <h3>Perguntas frequentes</h3>
+            </div>
+
+            <div class="faq">
+
+                <details>
+                    <summary>A partir de que idade meu filho pode começar? <i class="bi bi-arrow-down-circle"></i>
+                    </summary>
+                    <p>Nossas aulas de Jiu-Jitsu são abertas para crianças a partir de 4 anos.</p>
+                </details>
+
+                <details>
+                    <summary>Quais são os benefícios do Jiu-Jitsu para crianças? <i class="bi bi-arrow-down-circle"></i>
+                    </summary>
+                    <p>A prática do Jiu-Jitsu oferece inúmeros benefícios físicos e mentais, incluindo melhor
+                        condicionamento físico, aumento da resistência, desenvolvimento da autoconfiança, alívio do
+                        estresse e a capacidade de defesa pessoal.</p>
+                </details>
+
+                <details>
+                    <summary>É seguro para crianças praticarem Jiu-Jitsu? <i class="bi bi-arrow-down-circle"></i>
+                    </summary>
+                    <p>Sim, todas as nossas aulas são conduzidas com o maior cuidado e segurança, adaptadas à faixa
+                        etária das crianças.</p>
+                </details>
+
+                <details>
+                    <summary>Meu filho precisa de algum equipamento especial? <i class="bi bi-arrow-down-circle"></i>
+                    </summary>
+                    <p>Inicialmente, fornecemos todos os equipamentos necessários. Conforme avança, recomendamos a
+                        aquisição de alguns itens pessoais como kimono.</p>
+                </details>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="interface">
+
+            <form action="">
+
+                <input type="text" name="" id="" placeholder="Seu nome:" required>
+                <input type="text" name="" id="" placeholder="Celular:" required>
+
+                <textarea name="" id="" cols="30" rows="10" placeholder="Sua mensagem:"></textarea>
+
+                <div class="btn-form">
+                    <input type="submit" value="Enviar">
+                </div>
+
+            </form>
+
+            <div class="title-contact">
+                <h1>Entrar em <span>contato:</span></h1>
+                <p>Quer saber mais sobre a UBT e como fazer parte da nossa comunidade?
+                    Não hesite em entrar em contato conosco.
+                    Estamos ansiosos para receber sua ligação ou visita e ajudá-lo a dar o
+                    primeiro passo na sua jornada de artes marciais conosco!
+                </p>
+
+                <div class="location">
+                    <p><i class="bi bi-geo-alt"></i>Av. Rua Professor Morais Correia - <span>Parquelandia, Fortaleza -
+                            Ceará</span> </p>
+                    <p><a href="#"><i class="bi bi-whatsapp"></i>(87) 99100-4455</a></p>
+                    <p><a href="#"><i class="bi bi-instagram"></i>@CTUBT</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+
+        <div class="interface">
+            <div class="footer-container">
+                <div class="footer-contact">
+                    <h4>Contato</h4>
+                    <p>Endereço: Rua Exemplo, 123</p>
+                    <p>Telefone: (11) 1234-5678</p>
+                    <p>Email: contato@ubt.com</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="about.html">Sobre Nós</a></li>
+                        <li><a href="#">Serviços</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Redes Sociais</h4>
+                    <a href="#"><i class="bi bi-instagram"></i> Instagram</a>
+                    <a href="#"><i class="bi bi-whatsapp"></i> Whatsapp</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="footer-bottom">
+        <div>
+            <div class="footer-copyright">
+                <p>&copy; 2024 UBT. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="circleWhats"><a href=""><img src="imagens/whatsFixer.svg" alt=""></a></div>
+
+    <script src="JS/script.js"></script>
+
+</body>
+
+</html>

@@ -151,9 +151,10 @@ li a {
     text-decoration: none;
 }
 
+
 section.hero {
     height: 95vh;
-    background-image: url(../imagens/BG-boxe.jpg);
+    background-image: url(../imagens/kids/kids-bg.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -192,7 +193,7 @@ section.hero {
 }
 
 .hero button {
-    margin: 30px 10px 0 0;
+    margin: 50px 10px 0 0;
     width: 150px;
     height: 50px;
     font-size: 14px;
@@ -202,7 +203,6 @@ section.hero {
     background-color:transparent;
     text-transform: uppercase;
     font-weight: 500;
-
 }
 
 .hero button:hover {
@@ -210,32 +210,36 @@ section.hero {
     color: #000;
 }
 
-.about {
+section.about {
     margin-top: 90px;
 }
 
-.about .interface {
+.about .interface{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 5%;
+    margin-bottom: 90px;
 }
 
 .about .text-about {
+    align-items: center;
+    justify-content: center;
     width: 480px;
-    margin-right: 60px;
-} 
-
-.about .text-about h1 {
-    margin-bottom: 30px;
-    color: #FFCB0C;
 }
 
-.about .text-about p {
+.text-about h1 {
+    color: #FFCB0C;
+    margin-bottom: 30px;
+}
+
+.text-about p {
     margin-bottom: 20px;
 }
 
 .about .img-about img {
-    width: 300px;
+    width: 350px;
+    height: 400px;
     margin-left: 60px;
     border-radius: 10px;
     box-shadow: -12px 14px 12px 2px rgba(0, 0, 0, 0.116);
@@ -247,7 +251,6 @@ section.benefits {
     justify-content: center;
     background-color: #322C36;
     padding-bottom: 90px;
-    margin-top: 90px;
 }
 
 .benefits .text-benefits {
@@ -303,140 +306,113 @@ section.benefits {
     border-radius: 30px;
 }
 
-.gallery-boxe .interface {
-    width: 80%;
-    margin-top: 90px;
+section.gallery {
     text-align: center;
-    align-items: center;
     justify-content: center;
 }
 
-.gallery-boxe h1 {
+.gallery .interface {
+    width:80%;
+}
+
+.gallery .text-gallery {
+    margin-top:90px;
+}
+
+.text-gallery h1 {
     text-transform: capitalize;
-    margin-bottom: 30px;
+    font-size: 38px;
+    margin-bottom: 40px;
     color: #FFCB0C;
 }
 
-.gallery-boxe h3 {
-    margin: 50px auto;
-    font-weight: 400;
-    width: 400px;
+.text-gallery p {
+    margin: 0 auto 60px;
+    width: 450px;
 }
 
-.gallery-boxe .photo img {
-    width: 250px;
-    margin: 0 10px;
-    display: inline-block;
-    border-radius: 10px;
-}
-
-section.teacher {
-    margin-top: 90px;
-    background-color: #322C36;
-}
-
-.teacher .interface {
+.gallery .gallery-photo{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto 90px;
+    gap: 5%;
 }
 
-.teacher .photo-teacher img {
-    width: 300px;
-    border-radius: 50%;
-    margin: 90px auto;
+.gallery .photo img {
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
 }
 
-.teacher .txt-teacher {
-    margin: 50px;
+section.teachers {
+    width: 100%;
 }
 
-.teacher .txt-teacher h4 {
-    margin: 20px;
-    font-size: 24px;
-    color: #FFCB0C;
-}
-
-.teacher .txt-teacher h2, hr{
-    color: #fff;
-    text-transform: capitalize;
-    margin: 20px;
-}
-
-.teacher .txt-teacher p {
-    width: 500px;
-    color: #fff;
-    margin: 20px;
-}
-
-.testimony {
-    margin-top: 90px;
-    width: 90%;
+.teachers .interface {
+    width: 80%;
     margin: auto;
 }
 
-.testimony .interface {
-    width: 90%;
-    margin: 0 10%;
+.teachers .img-teacher img{
+    width: 250px;
+    height: 300px;
+    border-radius: 50%;
 }
 
-.testimony .title-testimony h1 {
-    margin: 90px 0 30px;
-}
-
-.testimony .title-testimony p {
-    color: #FFCB0C;
-    margin-bottom: 30px;
-    width: 90%;
-}
-
-.testimony .testimonial-container {
-    display: flex;
+.teachers .txt-title {
     width: 80%;
-    justify-content: space-between;
-    margin: 5%;
-    gap: 3%;
-}
-
-.testimony .testimonial {
-    width: 260px;
-    border-radius: 5%;
-    padding: 30px 10px;
-    background-color: #322C36;
     text-align: center;
+    margin: 60px auto;
+    text-transform: capitalize;
 }
 
-.testimony .testimonial i {
+.teachers .txt-title h1 {
     color: #FFCB0C;
-    font-size: 22px;
 }
 
-.testimony .testimonial p {
-    color: #fff;
-    line-height: 25px;
-    font-size: 14px;
-    padding-top: 10px;
-    height: 150px;
+.teachers .txt-title p {
+    text-transform: initial;
+    margin-bottom: 90px;
 }
 
-.testimony .testimonial h4 {
+.teachers .teacher-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.teachers .txt-teacher {
+    width: 250px;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.teachers .txt-teacher h4 {
+    text-transform: capitalize;
+    margin: 10px auto;
+    font-size: 20px;
     color: #FFCB0C;
-    padding-top: 10px;
 }
 
-.faq-boxe {
+.teachers .txt-teacher  h2 {
+    text-transform: capitalize;
+    font-size: 28px;
+}
+
+.faq-jiu {
     background-color: #322C36;
     margin-top: 90px;
 }
 
-.faq-boxe .interface {
+.faq-jiu .interface {
     display: inline-block;
     width: 80%;
     margin: 0 10%;
     padding: 4%;
 }
 
-.faq-boxe .title_accordion {
+.faq-jiu .title_accordion {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -445,18 +421,18 @@ section.teacher {
     color: #fff;
 }
 
-.faq-boxe .faq {
+.faq-jiu .faq {
     width: 80%;
     margin: 90px auto;
 }
 
-.faq-boxe details {
+.faq-jiu details {
     border-bottom: 1px solid #FAA846;
     padding-bottom: 30px;
     margin-top: 30px;
 }
 
-.faq-boxe .faq summary {
+.faq-jiu .faq summary {
     font-size: 22px;
     font-weight: 500;
     color: #FFCB0C;
@@ -466,11 +442,11 @@ section.teacher {
     justify-content: space-between;
 }
 
-.faq-boxe .faq summary i {
+.faq-jiu .faq summary i {
     color: #3767dfd2;
 }
 
-.faq-boxe .faq p {
+.faq-jiu .faq p {
     font-size: 16px;
     color: #fff;
     font-weight: 400;

@@ -38,7 +38,7 @@ header .menu-desktop nav ul {
     list-style: none;
     display: flex;
 }
- 
+
 header .menu-desktop nav ul li a {
     text-decoration: none;
     padding: 10px 30px;
@@ -58,7 +58,7 @@ header .menu-desktop nav ul li a:hover {
 
 .drop-hover .drop {
     position: absolute;
-    background-color:#FFCB0C;
+    background-color: #FFCB0C;
     width: 100%;
     height: 0;
     overflow: hidden;
@@ -129,13 +129,13 @@ menu h1 {
 .link a {
     display: flex;
     gap: 1px;
-    padding-top: 12px;
+    padding-top: 14px;
     padding-left: 15px;
     text-transform: uppercase;
     font-weight: 500;
     text-align: center;
     width: 100%;
-    height: 24px;
+    height: 12px;
     font-size: 20px;
     border-top: 2px solid #00000036;
     list-style-type: none;
@@ -179,7 +179,7 @@ section.hero {
     height: 141px;
 }
 
-.hero .txt-hero h1 span{
+.hero .txt-hero h1 span {
     color: #FFCB0C;
     font-weight: 700;
 }
@@ -191,7 +191,8 @@ section.hero {
     font-weight: 500;
 }
 
-.hero button, .teachers button {
+.hero button,
+.teachers button {
     margin: 50px 10px 0 0;
     width: 150px;
     height: 50px;
@@ -199,13 +200,14 @@ section.hero {
     border-radius: 50px;
     border: #FFCB0C solid 2px;
     color: #fff;
-    background-color:transparent;
+    background-color: transparent;
     text-transform: uppercase;
     font-weight: 500;
     cursor: pointer;
 }
 
-.hero button:hover, .teachers button:hover {
+.hero button:hover,
+.teachers button:hover {
     background-color: #FFCB0C;
     color: #000;
 }
@@ -214,7 +216,7 @@ section.about {
     margin-top: 90px;
 }
 
-.about .interface{
+.about .interface {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -270,7 +272,7 @@ section.about {
 .testimony i {
     font-size: 75px;
     color: #FEB206;
-    filter:drop-shadow( 1px 1px 2px #000000);
+    filter: drop-shadow(1px 1px 2px #000000);
 }
 
 .testimony p.testimony_txt {
@@ -280,15 +282,15 @@ section.about {
     margin: 30px auto;
     text-align: center;
     color: #fff;
-    filter:drop-shadow( 1px 1px 2px #424242);
+    filter: drop-shadow(1px 1px 2px #424242);
 }
 
-.slide .person p.name_person{
+.slide .person p.name_person {
     font-size: 24px;
     color: #FEB206;
     font-weight: 600;
     text-align: center;
-    filter:drop-shadow( 1px 1px 2px #444444);
+    filter: drop-shadow(1px 1px 2px #444444);
 }
 
 section.services {
@@ -300,7 +302,7 @@ section.services {
     max-width: 80%;
 }
 
-.services .txt-services h3{
+.services .txt-services h3 {
     color: #fff;
     padding-top: 60px;
     font-size: 24px;
@@ -326,7 +328,7 @@ section.services {
     width: 150px;
 }
 
-.services .modality h3{
+.services .modality h3 {
     color: #fff;
     margin: 20px 0;
     font-size: 24px;
@@ -349,7 +351,7 @@ section.plan {
     margin: auto;
 }
 
-.plan .title_plan h1{
+.plan .title_plan h1 {
     text-transform: capitalize;
     font-size: 34PX;
     margin-bottom: 30px;
@@ -431,7 +433,7 @@ section.plan {
     font-weight: 300;
     margin: auto;
     list-style: none;
-    padding:10px 0;
+    padding: 10px 0;
     border-bottom: #fff solid 1px;
     width: 150px;
 }
@@ -513,7 +515,6 @@ section.photo {
 .photoClass img {
     width: 200px;
     height: 250px;
-
 }
 
 .photoClass h2 {
@@ -525,7 +526,7 @@ section.photo {
     font-weight: 700;
 }
 
-.text_photo p{
+.text_photo p {
     margin-top: 15px;
     text-align: center;
     font-size: 14px;
@@ -539,6 +540,7 @@ section.schedule {
     background-image: url(imagens/Schedule.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 50%;
 }
 
 .schedule .interface {
@@ -559,7 +561,7 @@ section.schedule {
     text-transform: uppercase;
 }
 
-.schedule button{
+.schedule button {
     width: 270px;
     height: 60px;
     background-color: #FFCB0C;
@@ -606,7 +608,7 @@ section.schedule {
     margin: 0 auto;
     align-items: center;
     justify-content: space-between;
-    max-width:80%;
+    max-width: 80%;
     gap: 1%;
 }
 
@@ -629,6 +631,7 @@ section.schedule {
 
 .faq-about {
     background-color: #322C36;
+    margin-top: 30px;
 }
 
 .faq-about .interface {
@@ -664,7 +667,7 @@ section.schedule {
     font-weight: 500;
     color: #FFCB0C;
     padding: 10px 0 20px;
-    list-style-type:none;
+    list-style-type: none;
     display: flex;
     justify-content: space-between;
 }
@@ -680,63 +683,9 @@ section.schedule {
     width: 80%;
 }
 
-.form {
-    display: flex;
-    width: 950px;
-    height: 500px;
-    background-color: #FFCB0C;
-    margin: 90px auto;
-    border-radius: 10px ;
-    color: #050505;
-    background-image: url(imagens/vector.png);
-    background-size: initial;
-    background-repeat: no-repeat;
-}
-
-.titleForm {
-    margin-left: 60px;
-    margin-top: 90px;
-    text-align: center;
-    text-transform: capitalize;
-}
-
-.titleForm h6 {
-    margin: 10px;
-}
-
-.titleForm h5 {
-    margin: 15px;
-    font-size: 28px;
-    color: #FFCB0C;
-}
-
-.titleForm h1 {
-    width: 350px;
-    font-size: 34px;
-    color: #000000;
-}
-
-.titleForm h3 {
-    margin-top: 60px;
-    font-size: 34px;
-    color: #FFCB0C;
-}
-
-.modalityForm {
-    display: inline-block;
-    margin: 0px 80px 15px auto;
-    width: 300px;
-    height: 400px;
-}
-
-.modalityForm h1 {
-    text-align: center;
-    text-transform: uppercase;
-}
-
 section.contact {
     margin: 0;
-    background-image: url(imagens/maps.fundo.png);
+    background-image: url(../imagens/maps.fundo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;    
@@ -752,7 +701,7 @@ section.contact {
 
 .contact form {
     border: 1px solid #FFCB0C;
-    padding: 30px 40px 30px 20px;
+    padding: 20px 40px 20px 20px;
 }
 
 form input, form textarea {
@@ -819,13 +768,14 @@ form textarea {
     line-height: 30px;
     margin: 0 40px;
     color: #FFCB0C;
-    font-weight: 700;
+    filter:drop-shadow( 1px 1px 2px #00000046);
 }
 
 .contact .location p i {
     color: #FFCB0C;
     margin-right: 10px;
     font-size: 28px;
+    filter: drop-shadow(1px 1px 2px #00000046);
 }
 
 .contact .location p a {
@@ -857,12 +807,12 @@ form textarea {
 }
 
 .footer-contact p {
-    color: #FFCB0C;    
+    color: #FFCB0C;
     font-size: 12px;
     margin-bottom: 5px;
 }
 
-.footer-links ul li{
+.footer-links ul li {
     list-style: none;
     font-size: 12px;
     margin-bottom: 5px;

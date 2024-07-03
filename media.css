@@ -1,0 +1,376 @@
+@media screen and (max-width: 980px) {
+
+    header .menu-desktop nav ul li a {
+        font-size: 18px;
+    }
+
+    .drop-hover .drop a {
+        padding: 22px;
+    }
+
+    .but-menu #menu_icon {
+        font-size: 50px;
+    }
+
+    .itens_link {
+        top: 0;
+        right: 0;
+    }
+
+    menu h1 {
+        padding-top: 15px;
+    }
+
+    /* hero */
+
+    .hero .txt-hero {
+        width: 80%;
+        margin: auto;
+        padding: 120px 0;
+    }
+
+    .hero .txt-hero p {
+        width: 95%;
+        margin-bottom: 50px;
+    }
+
+    .hero button {
+        margin-top: 20px;
+    }
+
+    /* about */
+
+    section.about {
+        margin-top: 30px;
+    }
+
+    .about .interface {
+        flex-direction: column;
+    }
+
+    .about .text-about {
+        width: 80%;
+    }
+
+    .about .img-about img {
+        width: 250px;
+        height: 260px;
+        margin: 30px auto 0;
+    }
+
+    /* testimony */
+
+    .testimony {
+        margin-top: 60px;
+        padding: 30px 10px;
+    }
+
+    .testimony i {
+        font-size: 50px;
+    }
+
+    .testimony p.testimony_txt {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    .slide .person p.name_person {
+        font-size: 18px;
+    }
+
+    /* services */
+
+    .services .modality {
+        margin: auto;
+        padding-bottom: 30px;
+    }
+
+    .services .txt-services h1 {
+        padding-bottom: 30px;
+        font-size: 28px;
+    }
+
+    .services .modality h3 {
+        font-size: 16px;
+    }
+
+    .services .modality img {
+        width: 90px;
+    }
+
+    /* plan */
+
+    .plan .interface {
+        width: 80%;
+        margin: 50px;
+    }
+
+    /* gallery */
+
+    
+    .titlePhoto h4 {
+        margin-bottom: 60px;
+    }
+
+    .photos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .photos .photoClass {
+        margin: 0 auto 90px;
+        width: 80%;
+        text-align: center;
+    }
+
+    .photos .photoClass img {
+        width: 200px;
+        height: 240px;
+    }
+
+    .photoClass h2 {
+        font-size: 22px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .photoClass p {
+        display: none;
+    }
+
+    /* schedule */
+
+    section.schedule {
+        background-position: 20%;
+    }
+
+    .schedule .interface {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .schedule h1 {
+        width: 80%;
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .schedule button {
+        width: 220px;
+        font-size: 16px;
+    }
+
+    /* teacher */
+
+    .teachers {
+        height: 80vh;
+        width: 90%;
+        margin: auto;
+    }
+
+    .teachers p {
+        width: 80%;
+        font-size: 16px;
+    }
+
+    .photoTeachers {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 80%;
+        justify-content: center;
+    }
+
+    .photoTeachers img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .photoTeachers h3 {
+        font-size: 16px;
+        padding: 5px 10px 10px;
+        margin-top: 10px;
+    }
+    
+    /* contact */
+
+    .contact .interface {
+        width: 80%;
+        padding: 60px 0 0;
+        display: block;
+    }
+
+    .contact form {
+        padding: 20px;
+    }
+
+    form input, form textarea {
+        width: 90%;
+        padding: 20px 30px;
+    }
+
+    .contact .title-contact {
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    .contact .location {
+        margin-top: 30px;
+    }
+
+    .contact .location p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    /* gallery e teacher */
+
+    section.photo, .teachers {
+        height: 95vh;
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .menu-desktop {
+        display: none;
+    }
+
+    section.hero {
+        height: 100vh;
+        background-image: url(imagens/mobile-photo/hero_Phone.png);
+    }
+
+    .services .txt-services h1, .services .txt-services h3 {
+        font-size: 20px;
+    }
+
+    .services .modality p, .text_photo p {
+        display: none;
+    }
+
+    /* gallery */
+
+    section.photo  {
+        height: 100vh;
+    }
+
+    .photos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .photos .photoClass {
+        margin-bottom: 30px;
+    }
+
+    .photos .photoClass img {
+        width: 120px;
+        height: 140px;
+    }
+
+    .photoClass h2 {
+        font-size: 16px;
+    }
+
+
+    /* teacher */
+
+    .teachers {
+        width: 80%;
+        height: 90vh;
+        padding-top: 30px;
+    }
+
+    .teachers p {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .photoTeachers {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .photoTeachers img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .photoTeachers h3 {
+        font-size: 16px;
+        padding: 5px 10px 10px;
+        margin-top: 10px;
+    }
+
+    /* faq */
+
+    .faq-about .title_accordion {
+        font-size: 18px;
+        width: 95%;
+    }
+
+    .faq-about .title_accordion img {
+        width: 85px;
+    }
+
+    .faq-about .faq {
+        margin-top: 60px;
+    }
+
+    .faq-about .faq summary {
+        font-size: 16px;
+    }
+
+    .faq-about .faq p {
+        width: 95%;
+        font-size: 14px;
+    }
+
+    /* contact */
+
+    .contact .interface {
+        width: 80%;
+        padding: 60px 0 0;
+        display: block;
+    }
+
+    .contact form {
+        padding: 20px;
+    }
+
+    form input, form textarea {
+        width: 90%;
+        padding: 20px 15px;
+    }
+
+    .contact .title-contact {
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    .contact .location {
+        margin-top: 30px;
+    }
+
+    .contact .location p {
+        font-size: 16px;
+    }
+
+    /* footer */
+
+    .footer .interface {
+        padding-top: 30px;
+    }
+
+    .footer-contact h4, .footer-links h4, .footer-social h4 {
+        font-size: 14px;
+    }
+
+    .footer-contact p, .footer-links ul li, .footer-social a {
+        font-size: 8px;
+    } 
+}

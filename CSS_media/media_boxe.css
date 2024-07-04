@@ -232,6 +232,7 @@
     .benefits .text-benefits h4 {
         width: 80%;
         font-size: 14px;
+        font-weight: 300;
     }
 
     .benef-container {
@@ -303,9 +304,6 @@
 
     /* testimony */
 
-
-    /* testimony */
-
     .testimony {
         height: 100vh;
     }
@@ -336,7 +334,7 @@
 
     /* faq */
 
-    .faq-jiu {
+    .faq-boxe {
         margin-top: 180px;
     }
     .faq-boxe .title_accordion {
@@ -407,12 +405,5 @@
     .footer-links ul li,
     .footer-social a {
         font-size: 8px;
-    }
-}
-
-@media screen and (max-width: 390px) {
-    .testimony .testimonial {
-        margin: 1px;
-        width: 134px;
     }
 }

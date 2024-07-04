@@ -1,0 +1,407 @@
+@media screen and (max-width: 980px) {
+    header .menu-desktop nav ul li a {
+        font-size: 16px;
+    }
+
+    .drop-hover .drop a {
+        padding: 22px;
+    }
+
+    .but-menu #menu_icon {
+        font-size: 50px;
+    }
+
+    .itens_link {
+        top: 0;
+        right: 0;
+    }
+
+    menu h1 {
+        padding-top: 15px;
+    }
+
+    /* about */
+
+    section.about {
+        margin-top: 30px;
+        margin: auto;
+    }
+
+    .about .interface {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .about .text-about {
+        width: 80%;
+        margin: auto;
+    }
+
+    .text-about h1 {
+        font-size: 24px;
+    }
+
+    .about .img-about img {
+        width: 250px;
+        height: 260px;
+        margin: 30px auto 0;
+    }
+
+    /* gallery */
+
+    .gallery .text-gallery {
+        margin-top: 60px;
+    }
+
+    .gallery .text-gallery h1 {
+        font-size: 28px;
+    }
+
+    .gallery .text-gallery p {
+        width: 80%;
+    }
+
+    .gallery .gallery-photo {
+        margin: auto;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .gallery .photo img {
+        width: 200px;
+    }
+
+    /* teacher */
+
+    .teacher .interface {
+        padding: 30px 0;
+        width: 90%;
+    }
+
+    .teacher .text-teacher h4 {
+        font-size: 18px;
+    }
+
+    .teacher .text-teacher p, hr {
+        font-size: 16px;
+    }
+
+    .teacher .teacher-photo img {
+        width: 200px;
+        height: 300px;
+        border-radius: 50%;
+    }
+
+    /* testimony */
+
+    .testimony .title-testimony h1 {
+        margin: 60px 0 30px;
+    }
+
+    .testimony .testimonial {
+        height: 30vh;
+    }
+
+    .testimony .testimonial h4 {
+        padding-top: 70px;
+    }
+
+    /* contact */
+
+    .contact .interface {
+        width: 80%;
+        padding: 60px 0 0;
+        display: block;
+    }
+
+    .contact form {
+        padding: 20px;
+    }
+
+    form input,
+    form textarea {
+        width: 90%;
+        padding: 20px 30px;
+    }
+
+    .contact .title-contact {
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    .contact .location {
+        margin-top: 30px;
+    }
+
+    .contact .location p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /* gallery */
+
+    .gallery .gallery-photo {
+        width: 80%;
+    }
+
+    .gallery .photo img {
+        width: 150px;
+    }
+
+    /* testimony */
+
+    .testimony {
+        height: 50vh;
+    }
+
+    .testimony .title-testimony h1 {
+        margin: 60px 0 30px;
+    }
+
+    .testimony .testimonial {
+        height: 35vh;
+    }
+
+    .testimony .testimonial h4 {
+        padding-top: 70px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .menu-desktop {
+        display: none;
+    }
+
+    /* hero */
+
+    section.hero {
+        background-image: url(../imagens/mobile-photo/hero_Phone.png);
+    }
+
+    .hero .txt-hero {
+        width: 80%;
+        margin: auto;
+        padding: 140px 0;
+    }
+
+    .hero .txt-hero h1 {
+        width: 80%;
+        font-size: 28px;
+    }
+
+    .hero .txt-hero p {
+        width: 95%;
+        margin-bottom: 15px;
+        font-size: 14px;
+        margin-top: 0;
+    }
+
+    .hero button {
+        margin-top: 30px;
+    }
+
+    /* benefit */
+
+    .benefits .text-benefits h1 {
+        font-size: 24px;
+    }
+
+    .benefits .text-benefits h4 {
+        width: 80%;
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    .benef-container {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .benef-container h2 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .benef-container p {
+        font-size: 14px;
+    }
+
+    .benef-container .img-benef img {
+        width: 150px;
+        height: 140px;
+    }
+
+    /* gallery */
+
+    .gallery .text-gallery {
+        margin-top: 60px;
+    }
+
+    .gallery .text-gallery h1 {
+        font-size: 24px;
+    }
+
+    .gallery .text-gallery p {
+        width: 90%;
+    }
+
+    .gallery .gallery-photo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .gallery .photo img {
+        width: 150px;
+    }
+
+    /* teacher */
+
+    .teacher .interface {
+        flex-direction: column;
+    }
+
+    .teacher .column {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .teacher .teacher-photo img {
+        width: 200px;
+        height: 250px;
+        border-radius: 50%;
+        margin: 15px 0 0;
+    }
+
+    .teacher .text-teacher {
+        margin: auto;
+    }
+
+    .teacher .text-teacher h4 {
+        font-size: 18px;
+    }
+
+    .teacher .text-teacher p {
+        width: 85%;
+        font-size: 16px;
+        padding-bottom: 15px;
+    }
+
+    /* testimony */
+
+    .testimony {
+        width: 100%;
+        height: 60vh;
+    }
+
+    .testimony .title-testimony h1 {
+        margin: 30px auto 15px;
+        font-size: 24px;
+    }
+
+    .testimony .title-testimony p {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .testimony .testimonial-container {
+        margin: 5px 15px;
+        width: 85%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .testimony .testimonial {
+        width: 120px;
+        height: 40vh;
+        border-radius: 15px;
+        padding: 30px 5px;
+        margin: 10px 0px;
+    }
+
+    .testimony .testimonial p {
+        font-size: 12px;
+    }
+
+    .testimony .testimonial h4 {
+        font-size: 12px;
+    }
+
+    /* faq */
+
+    .faq-jiu .title_accordion {
+        font-size: 18px;
+        width: 95%;
+    }
+
+    .faq-jiu .title_accordion img {
+        width: 85px;
+    }
+
+    .faq-jiu .faq {
+        margin-top: 60px;
+    }
+
+    .faq-jiu .faq summary {
+        font-size: 16px;
+    }
+
+    .faq-jiu .faq p {
+        width: 95%;
+        font-size: 14px;
+    }
+
+    /* footer */
+
+    .footer .interface {
+        padding-top: 30px;
+    }
+
+    .footer-contact h4,
+    .footer-links h4,
+    .footer-social h4 {
+        font-size: 14px;
+    }
+
+    .footer-contact p,
+    .footer-links ul li,
+    .footer-social a {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    .gallery .gallery-photo {
+        width: 80%;
+        justify-content: center;
+    }
+
+    .gallery .photo img {
+        width: 120px;
+    }
+
+    .teacher .text-teacher h4, h2 {
+        margin-left: 10px;
+
+    }
+    .teacher .text-teacher p {
+        width: 60%;
+        margin-left: 10px;
+    }
+
+    .testimony .testimonial {
+        width: 135px;
+        height: 40vh;
+        border-radius: 15px;
+        padding: 30px 5px;
+        overflow: hidden;
+        margin: 5px;
+    }
+}

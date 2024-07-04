@@ -330,7 +330,7 @@ section.gallery {
     width: 450px;
 }
 
-.gallery .gallery-photo{
+.gallery .gallery-photo {
     display: flex;
     justify-content: space-between;
     width: 80%;

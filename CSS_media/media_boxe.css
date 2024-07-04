@@ -219,6 +219,10 @@
         display: none;
     }
 
+    section.hero {
+        background-image: url(../imagens/mobile-photo/bx-phone.jpg);
+    }
+
     /* benefit */
 
     .benefits .text-benefits h1 {

@@ -318,14 +318,14 @@
     
     .testimony .testimonial-container {
         margin: 5px;
-        width: 90%;
+        width: 80%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         overflow: hidden;
     }
 
     .testimony .testimonial {
-        width: 134px;
+        width: 135px;
         height: 40vh;
         border-radius: 15px;
         padding: 30px 5px;
@@ -416,6 +416,6 @@
 @media screen and (max-width: 390px) {
     .testimony .testimonial {
         margin: 1px;
-        width: 135px;
+        width: 134px;
     }
 }

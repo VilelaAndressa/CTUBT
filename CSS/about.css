@@ -192,6 +192,7 @@ li a {
 .story {
     width: 100%;
     background-color: #322C36;
+    padding-bottom: 30px;
 }
 
 .story_txt {
@@ -222,6 +223,10 @@ li a {
     font-size: 18px;
     font-weight: 400;
     line-height: normal;
+}
+
+.view-more_actions {
+    display: none;
 }
 
 .location_space {

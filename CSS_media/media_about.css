@@ -42,6 +42,10 @@
 
     /* story */
 
+    .story {
+        padding-bottom: 5px;
+    }
+
     .story_txt h1 {
         font-size: 22px;
     }
@@ -53,6 +57,10 @@
 
     .story_txt p {
         font-size: 16px;
+    }
+
+    .view-more_actions {
+        display: block;
     }
 
     .view-more {

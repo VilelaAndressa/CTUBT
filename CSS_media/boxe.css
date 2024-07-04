@@ -1,0 +1,417 @@
+@media screen and (max-width: 980px) {
+    header .menu-desktop nav ul li a {
+        font-size: 16px;
+    }
+
+    .drop-hover .drop a {
+        padding: 22px;
+    }
+
+    .but-menu #menu_icon {
+        font-size: 50px;
+    }
+
+    .itens_link {
+        top: 0;
+        right: 0;
+    }
+
+    menu h1 {
+        padding-top: 15px;
+    }
+
+    /* hero */
+
+    .hero .txt-hero {
+        width: 80%;
+        margin: auto;
+        padding: 180px 0;
+    }
+
+    .hero .txt-hero h1 {
+        width: 80%;
+        font-size: 28px;
+    }
+
+    .hero .txt-hero p {
+        width: 95%;
+        margin-bottom: 30px;
+        font-size: 14px;
+        margin-top: 0;
+    }
+
+    /* about */
+
+    section.about {
+        margin-top: 30px;
+        margin: auto;
+    }
+
+    .about .interface {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .about .text-about {
+        width: 80%;
+        margin: auto;
+    }
+
+    .about .img-about img {
+        width: 250px;
+        height: 260px;
+        margin: 30px auto 0;
+    }
+
+    /* benefit */
+
+    .benefits .text-benefits h1 {
+        font-size: 28px;
+    }
+
+    .benefits .text-benefits h4 {
+        width: 80%;
+        font-size: 16px;
+    }
+
+    .benef-container {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .benef-container h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .benef-container p {
+        font-size: 16px;
+    }
+
+    .benef-container .img-benef img {
+        width: 210px;
+        height: 190px;
+    }
+
+    /* gallery */
+
+    .gallery-boxe .interface {
+        margin-top: 60px;
+    }
+
+    .gallery-boxe h3 {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .gallery-boxe .photo img {
+        width: 150px;
+        margin: 5px auto;
+    }
+
+    /* teacher */
+
+    .teacher .interface {
+        margin: auto;
+    }
+
+    .teacher .photo-teacher img {
+        width: 200px;
+        border-radius: 50%;
+        margin: 20px 25% 0;
+    }
+
+    .teacher .txt-teacher {
+        margin: auto;
+        padding-left: 60px;
+    }
+
+    .teacher .txt-teacher h4 {
+        font-size: 18px;
+    }
+
+    .teacher .txt-teacher p,
+    hr {
+        width: 80%;
+        font-size: 16px;
+        padding-bottom: 0px;
+    }
+
+    /* testimony */
+
+    .testimony .title-testimony h1 {
+        margin: 60px 0 30px;
+    }
+
+    .testimony .testimonial {
+        height: 30vh;
+    }
+
+    .testimony .testimonial h4 {
+        padding-top: 70px;
+    }
+
+    /* contact */
+
+    .contact .interface {
+        width: 80%;
+        padding: 60px 0 0;
+        display: block;
+    }
+
+    .contact form {
+        padding: 20px;
+    }
+
+    form input,
+    form textarea {
+        width: 90%;
+        padding: 20px 30px;
+    }
+
+    .contact .title-contact {
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    .contact .location {
+        margin-top: 30px;
+    }
+
+    .contact .location p {
+        font-size: 16px;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+    /* gallery e teacher */
+
+    section.photo,
+    .teachers {
+        height: 95vh;
+    }
+
+    .testimony {
+        height: 50vh;
+    }
+
+    .testimony .title-testimony h1 {
+        margin: 60px 0 30px;
+    }
+
+    .testimony .testimonial {
+        height: 35vh;
+    }
+
+    .testimony .testimonial h4 {
+        padding-top: 70px;
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .menu-desktop {
+        display: none;
+    }
+
+    /* benefit */
+
+    .benefits .text-benefits h1 {
+        font-size: 28px;
+    }
+
+    .benefits .text-benefits h4 {
+        width: 80%;
+        font-size: 14px;
+    }
+
+    .benef-container {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .benef-container h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .benef-container p {
+        font-size: 14px;
+    }
+
+    .benef-container .img-benef img {
+        width: 130px;
+        height: 130px;
+    }
+
+    /* gallery */
+
+    .gallery-boxe .interface {
+        margin-top: 60px;
+    }
+
+    .gallery-boxe h3 {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .gallery-boxe .photo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .gallery-boxe .photo img {
+        width: 150px;
+        margin: 5px auto;
+    }
+
+    /* teacher */
+
+    .teacher .interface {
+        display: block;
+    }
+
+    .teacher .photo-teacher img {
+        width: 200px;
+        border-radius: 50%;
+        margin: 60px 25% 0;
+    }
+
+    .teacher .txt-teacher {
+        margin: auto;
+    }
+
+    .teacher .txt-teacher h4 {
+        font-size: 18px;
+    }
+
+    .teacher .txt-teacher p {
+        width: 80%;
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
+
+    /* testimony */
+
+    .testimony {
+        height: 60vh;
+    }
+
+    .testimony .title-testimony h1 {
+        margin: 30px auto 15px;
+        font-size: 24px;
+    }
+
+    .testimony .title-testimony p {
+        width: 80%;
+        font-size: 14px;
+    }
+    
+    .testimony .testimonial-container {
+        margin: 5px;
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        overflow: hidden;
+    }
+
+    .testimony .testimonial {
+        width: 134px;
+        height: 40vh;
+        border-radius: 15px;
+        padding: 30px 5px;
+        margin: 10px;
+    }
+
+    .testimony .testimonial p {
+        font-size: 12px;
+    }
+
+    .testimony .testimonial h4 {
+        font-size: 12px;
+    }
+
+    /* faq */
+
+    .faq-boxe .title_accordion {
+        font-size: 18px;
+        width: 95%;
+    }
+
+    .faq-boxe .title_accordion img {
+        width: 85px;
+    }
+
+    .faq-boxe .faq {
+        margin-top: 60px;
+    }
+
+    .faq-boxe .faq summary {
+        font-size: 16px;
+    }
+
+    .faq-boxe .faq p {
+        width: 95%;
+        font-size: 14px;
+    }
+
+    /* contact */
+
+    .contact .interface {
+        width: 80%;
+        padding: 60px 0 0;
+        display: block;
+    }
+
+    .contact form {
+        padding: 20px;
+    }
+
+    form input, form textarea {
+        width: 90%;
+        padding: 20px 15px;
+    }
+
+    .contact .title-contact {
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    .contact .location {
+        margin-top: 30px;
+    }
+
+    .contact .location p {
+        font-size: 16px;
+    }
+
+    /* footer */
+
+    .footer .interface {
+        padding-top: 30px;
+    }
+
+    .footer-contact h4,
+    .footer-links h4,
+    .footer-social h4 {
+        font-size: 14px;
+    }
+
+    .footer-contact p,
+    .footer-links ul li,
+    .footer-social a {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .testimony .testimonial {
+        margin: 1px;
+        width: 135px;
+    }
+}

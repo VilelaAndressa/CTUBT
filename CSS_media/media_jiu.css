@@ -263,7 +263,7 @@
     /* teacher */
 
     .teacher .interface {
-        flex-direction: column;
+        display: block;
     }
 
     .teacher .column {
@@ -271,15 +271,20 @@
         flex-direction: column-reverse;
     }
 
+    .teacher .column .teacher-photo img {
+        margin: 15px auto;
+    }
+
     .teacher .teacher-photo img {
         width: 200px;
         height: 250px;
         border-radius: 50%;
-        margin: 15px 0 0;
+        margin: 15px 22%;
     }
 
     .teacher .text-teacher {
         margin: auto;
+        width: 80%;
     }
 
     .teacher .text-teacher h4 {
@@ -287,7 +292,6 @@
     }
 
     .teacher .text-teacher p {
-        width: 80%;
         font-size: 16px;
         padding-bottom: 15px;
     }
@@ -295,8 +299,7 @@
     /* testimony */
 
     .testimony {
-        width: 90%;
-        height: 60vh;
+        height: 100vh;
     }
 
     .testimony .title-testimony h1 {
@@ -305,35 +308,30 @@
     }
 
     .testimony .title-testimony p {
-        width: 90%;
+        width: 80%;
         font-size: 14px;
     }
 
     .testimony .testimonial-container {
-        margin: 5px;
-        width: 80%;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        overflow: hidden;
+        display: block;
     }
-
+    
     .testimony .testimonial {
-        width: 135px;
-        height: 40vh;
-        border-radius: 15px;
-        padding: 30px 5px;
-        margin: 10px;
-    }
-
-    .testimony .testimonial p {
-        font-size: 12px;
+        margin-bottom: 5px;
+        height: 30vh;
+        padding: 15px 5px 0;
     }
 
     .testimony .testimonial h4 {
-        font-size: 12px;
+        padding: 0;
     }
 
+
     /* faq */
+
+    .faq-jiu {
+        margin-top: 180px;
+    }
 
     .faq-jiu .title_accordion {
         font-size: 18px;
@@ -392,20 +390,7 @@
 
     }
     .teacher .text-teacher p {
-        width: 50%;
         margin-left: 10px;
     }
 
-    .testimony .testimonial-container {
-        width: 85%;
-    }
-
-    .testimony .testimonial {
-        width: 120px;
-        height: 40vh;
-        border-radius: 15px;
-        padding: 30px 5px;
-        overflow: hidden;
-        margin: 0px;
-    }
 }

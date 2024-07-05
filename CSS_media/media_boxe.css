@@ -304,32 +304,8 @@
 
     /* testimony */
 
-    .testimony {
-        height: 100vh;
-    }
-
-    .testimony .title-testimony h1 {
-        margin: 30px auto 15px;
-        font-size: 24px;
-    }
-
-    .testimony .title-testimony p {
-        width: 80%;
-        font-size: 14px;
-    }
-
-    .testimony .testimonial-container {
-        display: block;
-    }
-    
-    .testimony .testimonial {
-        margin-bottom: 5px;
-        height: 30vh;
-        padding: 15px 5px 0;
-    }
-
-    .testimony .testimonial h4 {
-        padding: 0;
+    .title-testimony h1 {
+        font-size: 28px;
     }
 
     /* faq */
@@ -337,6 +313,7 @@
     .faq-boxe {
         margin-top: 180px;
     }
+
     .faq-boxe .title_accordion {
         font-size: 18px;
         width: 95%;
@@ -371,7 +348,8 @@
         padding: 20px;
     }
 
-    form input, form textarea {
+    form input,
+    form textarea {
         width: 90%;
         padding: 20px 15px;
     }

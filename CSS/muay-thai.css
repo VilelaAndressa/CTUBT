@@ -17,6 +17,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 999999;
 }
 
 header:hover {
@@ -384,62 +385,74 @@ section.teacher {
     margin: 20px;
 }
 
-
 .testimony {
     margin-top: 90px;
     width: 90%;
     margin: auto;
-}
-
-.testimony .interface {
+  }
+  
+  .testimony .interface {
     width: 90%;
     margin: 0 10%;
-}
-
-.testimony .title-testimony h1 {
+  }
+  
+  .testimony .title-testimony h1 {
     margin: 90px 0 30px;
-}
-
-.testimony .title-testimony p {
+  }
+  
+  .testimony .title-testimony p {
     color: #FFCB0C;
     margin-bottom: 30px;
     width: 90%;
-}
-
-.testimony .testimonial-container {
+  }
+  
+  .testimony .testimonial-container {
     display: flex;
     width: 80%;
     justify-content: space-between;
     margin: 5%;
     gap: 3%;
-}
-
-.testimony .testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .testimonial-content {
+    overflow: hidden;
+  }
+  
+  .text-testimony {
+    border-radius: 1rem;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+  }
+  
+  .testimony .testimonial {
     width: 260px;
     border-radius: 5%;
     padding: 30px 10px;
     background-color: #322C36;
     text-align: center;
-}
-
-.testimony .testimonial i {
+  }
+  
+  .testimony .testimonial i {
     color: #FFCB0C;
     font-size: 22px;
-}
-
-.testimony .testimonial p {
+  }
+  
+  .testimony .testimonial p {
     color: #fff;
     line-height: 25px;
     font-size: 14px;
     padding-top: 10px;
     height: 150px;
-}
-
-.testimony .testimonial h4 {
+  }
+  
+  .testimony .testimonial h4 {
     color: #FFCB0C;
     padding-top: 10px;
-}
-
+  }
 
 .faq-muay {
     background-color: #322C36;

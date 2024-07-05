@@ -82,7 +82,8 @@
         font-size: 18px;
     }
 
-    .teacher .text-teacher p, hr {
+    .teacher .text-teacher p,
+    hr {
         font-size: 16px;
     }
 
@@ -96,14 +97,6 @@
 
     .testimony .title-testimony h1 {
         margin: 60px 0 30px;
-    }
-
-    .testimony .testimonial {
-        height: 30vh;
-    }
-
-    .testimony .testimonial h4 {
-        padding-top: 70px;
     }
 
     /* contact */
@@ -150,23 +143,6 @@
         width: 150px;
     }
 
-    /* testimony */
-
-    .testimony {
-        height: 50vh;
-    }
-
-    .testimony .title-testimony h1 {
-        margin: 60px 0 30px;
-    }
-
-    .testimony .testimonial {
-        height: 35vh;
-    }
-
-    .testimony .testimonial h4 {
-        padding-top: 70px;
-    }
 }
 
 @media screen and (max-width: 600px) {
@@ -298,34 +274,9 @@
 
     /* testimony */
 
-    .testimony {
-        height: 100vh;
+    .title-testimony h1 {
+        font-size: 28px;
     }
-
-    .testimony .title-testimony h1 {
-        margin: 30px auto 15px;
-        font-size: 24px;
-    }
-
-    .testimony .title-testimony p {
-        width: 80%;
-        font-size: 14px;
-    }
-
-    .testimony .testimonial-container {
-        display: block;
-    }
-    
-    .testimony .testimonial {
-        margin-bottom: 5px;
-        height: 30vh;
-        padding: 15px 5px 0;
-    }
-
-    .testimony .testimonial h4 {
-        padding: 0;
-    }
-
 
     /* faq */
 
@@ -385,10 +336,12 @@
         width: 120px;
     }
 
-    .teacher .text-teacher h4, h2 {
+    .teacher .text-teacher h4,
+    h2 {
         margin-left: 10px;
 
     }
+
     .teacher .text-teacher p {
         margin-left: 10px;
     }

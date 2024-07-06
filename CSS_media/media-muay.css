@@ -1,4 +1,5 @@
 @media screen and (max-width: 980px) {
+
     header .menu-desktop nav ul li a {
         font-size: 16px;
     }
@@ -95,18 +96,26 @@
 
     /* gallery */
 
-    .gallery-boxe .interface {
+    .gallery .text-gallery {
         margin-top: 60px;
     }
 
-    .gallery-boxe h3 {
-        width: 90%;
-        font-size: 16px;
+    .gallery .text-gallery h1 {
+        font-size: 28px;
     }
 
-    .gallery-boxe .photo img {
-        width: 150px;
-        margin: 5px auto;
+    .gallery .text-gallery p {
+        width: 80%;
+    }
+
+    .gallery .gallery-photo {
+        margin: auto;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .gallery .photo img {
+        width: 200px;
     }
 
     .gallery-button {
@@ -147,6 +156,10 @@
         margin: 60px 0 30px;
     }
 
+    .testimony .testimonial {
+        height: 30vh;
+    }
+
     /* contact */
 
     .contact .interface {
@@ -177,8 +190,8 @@
     .contact .location p {
         font-size: 16px;
     }
-
 }
+
 
 @media screen and (max-width: 768px) {
 
@@ -201,8 +214,11 @@
         margin: 60px 0 30px;
     }
 
-}
+    .testimony .testimonial {
+        height: 35vh;
+    }
 
+}
 
 @media screen and (max-width: 600px) {
 
@@ -210,14 +226,38 @@
         display: none;
     }
 
+    /* hero */
+
     section.hero {
-        background-image: url(../imagens/mobile-photo/bx-phone.jpg);
+        background-image: url(../imagens/mobile-photo/mt-phone.jpeg);
+    }
+
+    .hero .txt-hero {
+        width: 80%;
+        margin: auto;
+        padding: 140px 0;
+    }
+
+    .hero .txt-hero h1 {
+        width: 80%;
+        font-size: 28px;
+    }
+
+    .hero .txt-hero p {
+        width: 95%;
+        margin-bottom: 15px;
+        font-size: 14px;
+        margin-top: 0;
+    }
+
+    .hero button {
+        margin-top: 30px;
     }
 
     /* benefit */
 
     .benefits .text-benefits h1 {
-        font-size: 28px;
+        font-size: 24px;
     }
 
     .benefits .text-benefits h4 {
@@ -232,7 +272,7 @@
     }
 
     .benef-container h2 {
-        font-size: 20px;
+        font-size: 18px;
         margin-bottom: 15px;
     }
 
@@ -241,36 +281,40 @@
     }
 
     .benef-container .img-benef img {
-        width: 130px;
-        height: 130px;
+        width: 150px;
+        height: 140px;
     }
 
     /* gallery */
 
-    .gallery-boxe .interface {
+    .gallery .text-gallery {
         margin-top: 60px;
     }
 
-    .gallery-boxe h3 {
-        width: 90%;
-        font-size: 16px;
+    .gallery .text-gallery h1 {
+        font-size: 24px;
     }
 
-    .gallery-boxe .photo {
+    .gallery .text-gallery p {
+        width: 90%;
+    }
+
+    .gallery .gallery-photo {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        margin: auto;
+        width: 100%;
+        padding-bottom: 30px;
     }
 
-    .gallery-boxe .photo img {
+    .gallery .photo img {
         width: 150px;
-        margin: 5px auto;
+        height: auto;
     }
 
     .gallery-button {
         width: 30%;
     }
-
-    /* teacher */
 
     .teacher .interface {
         display: block;
@@ -305,61 +349,30 @@
 
     /* faq */
 
-    .faq-boxe {
+    .faq-muay {
         margin-top: 180px;
     }
 
-    .faq-boxe .title_accordion {
+    .faq-muay .title_accordion {
         font-size: 18px;
         width: 95%;
     }
 
-    .faq-boxe .title_accordion img {
+    .faq-muay .title_accordion img {
         width: 85px;
     }
 
-    .faq-boxe .faq {
+    .faq-muay .faq {
         margin-top: 60px;
     }
 
-    .faq-boxe .faq summary {
+    .faq-muay .faq summary {
         font-size: 16px;
     }
 
-    .faq-boxe .faq p {
+    .faq-muay.faq p {
         width: 95%;
         font-size: 14px;
-    }
-
-    /* contact */
-
-    .contact .interface {
-        width: 80%;
-        padding: 60px 0 0;
-        display: block;
-    }
-
-    .contact form {
-        padding: 20px;
-    }
-
-    form input,
-    form textarea {
-        width: 90%;
-        padding: 20px 15px;
-    }
-
-    .contact .title-contact {
-        width: 100%;
-        margin: 30px 0;
-    }
-
-    .contact .location {
-        margin-top: 30px;
-    }
-
-    .contact .location p {
-        font-size: 16px;
     }
 
     /* footer */

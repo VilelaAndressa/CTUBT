@@ -41,6 +41,11 @@ let swiperCards = new Swiper(".testimonial-content", {
     dynamicBullets: true,
   },
 
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
+
   breakpoints: {
     600: {
       slidesPerView: 2,
@@ -67,7 +72,7 @@ let swiperPlans = new Swiper(".plan-content", {
       slidesPerView: 2,
     },
     968: {
-      slidesPerView: 4,
+      slidesPerView: 3,
     },
   },
 });

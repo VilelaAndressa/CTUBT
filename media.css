@@ -105,6 +105,10 @@
         margin: 50px;
     }
 
+    .plans-container {
+        max-width: 100% ;
+    }
+
     /* gallery */
 
     
@@ -229,9 +233,7 @@
     section.photo, .teachers {
         height: 95vh;
     }
-
 }
-
 
 @media screen and (max-width: 600px) {
 
@@ -275,7 +277,6 @@
     .photoClass h2 {
         font-size: 16px;
     }
-
 
     /* teacher */
 

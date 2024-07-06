@@ -344,6 +344,21 @@ section.gallery {
     border-radius: 30px;
 }
 
+.gallery-button {
+    background-color: #FFCB0C;
+    width: 10%;
+    height: 30px;
+    margin: 40px auto;
+    padding: 5px;
+    border-radius: 30px;
+    text-transform: capitalize;
+}
+
+.gallery-button a {
+    color: #000;
+    text-decoration: none;
+}
+
 section.teacher {
     background-color: #322C36;
 }

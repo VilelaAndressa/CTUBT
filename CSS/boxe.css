@@ -331,6 +331,21 @@ section.benefits {
     border-radius: 10px;
 }
 
+.gallery-button {
+    background-color: #FFCB0C;
+    width: 10%;
+    height: 30px;
+    margin: 40px auto;
+    padding: 5px;
+    border-radius: 30px;
+    text-transform: capitalize;
+}
+
+.gallery-button a {
+    color: #000;
+    text-decoration: none;
+}
+
 section.teacher {
     margin-top: 90px;
     background-color: #322C36;
@@ -358,7 +373,8 @@ section.teacher {
     color: #FFCB0C;
 }
 
-.teacher .txt-teacher h2, hr {
+.teacher .txt-teacher h2,
+hr {
     color: #fff;
     text-transform: capitalize;
     margin: 20px;

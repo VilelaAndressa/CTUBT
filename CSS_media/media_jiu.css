@@ -71,6 +71,10 @@
         width: 200px;
     }
 
+    .gallery-button {
+        width: 15%;
+    }
+
     /* teacher */
 
     .teacher .interface {
@@ -141,6 +145,10 @@
 
     .gallery .photo img {
         width: 150px;
+    }
+
+    .gallery-button {
+        width: 16%;
     }
 
 }
@@ -234,6 +242,10 @@
 
     .gallery .photo img {
         width: 150px;
+    }
+
+    .gallery-button {
+        width: 30%;
     }
 
     /* teacher */

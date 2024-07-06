@@ -1,0 +1,157 @@
+@media screen and (max-width: 980px) {
+    header .menu-desktop nav ul li a {
+        font-size: 16px;
+    }
+
+    .drop-hover .drop a {
+        padding: 22px;
+    }
+
+    .but-menu #menu_icon {
+        font-size: 50px;
+    }
+
+    .itens_link {
+        top: 0;
+        right: 0;
+    }
+
+    menu h1 {
+        padding-top: 15px;
+    }
+
+    /* hero */
+
+    section.hero {
+        height: 50vh;
+    }
+
+    .hero .text_hero p {
+        width: 100%;
+    }
+
+    .hero .cell_hero img {
+        width: 250px;
+    }
+
+    /* plan */
+
+    .plan .interface {
+        width: 80%;
+        margin: 50px;
+    }
+
+    .plans-container {
+        max-width: 100% ;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+ 
+    /* hero */
+
+    section.hero {
+        height: 60vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .menu-desktop {
+        display: none;
+    }
+ 
+    /* hero */
+
+    section.hero {
+        height: 100vh;
+    }
+
+    .hero .interface {
+        flex-direction: column;
+    }
+
+    .hero h1 {
+        width: 80%;
+        height: 100px;
+        font-size: 28px;
+    }
+
+    .hero .text_hero p  {
+        margin-top: 0;
+    }
+
+    .hero .cell_hero img {
+        width: 60%;
+        margin-top: 80px;
+    }
+    
+    /* faq */
+
+    .faq-plan .title_accordion {
+        font-size: 18px;
+        width: 95%;
+    }
+
+    .faq-plan  .title_accordion img {
+        width: 85px;
+    }
+
+    .faq-plan  .faq {
+        margin-top: 60px;
+    }
+
+    .faq-plan  .faq summary {
+        font-size: 16px;
+    }
+
+    .faq-plan  .faq p {
+        width: 95%;
+        font-size: 14px;
+    }
+
+    /* contact */
+
+    .contact .interface {
+        width: 80%;
+        padding: 60px 0 0;
+        display: block;
+    }
+
+    .contact form {
+        padding: 20px;
+    }
+
+    form input, form textarea {
+        width: 90%;
+        padding: 20px 15px;
+    }
+
+    .contact .title-contact {
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    .contact .location {
+        margin-top: 30px;
+    }
+
+    .contact .location p {
+        font-size: 16px;
+    }
+
+    /* footer */
+
+    .footer .interface {
+        padding-top: 30px;
+    }
+
+    .footer-contact h4, .footer-links h4, .footer-social h4 {
+        font-size: 14px;
+    }
+
+    .footer-contact p, .footer-links ul li, .footer-social a {
+        font-size: 8px;
+    } 
+}

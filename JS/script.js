@@ -56,16 +56,18 @@ let swiperCards = new Swiper(".testimonial-content", {
   },
 });
 
-let swiperPlans = new Swiper(".plan-content", {
-  loop: true,
+var swiperPlan = new Swiper(".plan-content", {
+  watchSlidesProgress: true,
   spaceBetween: 32,
   grabCursor: true,
 
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-    dynamicBullets: true,
-  },
+  slidesPerView: 3,
+});
+
+let swiperTeacher = new Swiper(".teacher-content", {
+  watchSlidesProgress: true,
+  spaceBetween: 32,
+  grabCursor: true,
 
   breakpoints: {
     600: {

@@ -416,6 +416,10 @@ section.teachers {
     font-size: 28px;
 }
 
+.teacher-content {
+    overflow: hidden;
+}
+
 .testimony {
     margin-top: 90px;
     width: 90%;

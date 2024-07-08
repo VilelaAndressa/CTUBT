@@ -713,6 +713,7 @@ form textarea {
 }
 
 .circleWhats {
+    z-index: 999999999999;
     width: 60px;
     height: 60px;
     border-radius: 30%;

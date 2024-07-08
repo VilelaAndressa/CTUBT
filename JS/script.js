@@ -16,7 +16,7 @@ viewMoreButtons.forEach(button => {
   }
 });
 
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".home-content", {
   slidesPerView: 1,
   spaceBetween: 30,
   loop: true,
@@ -78,3 +78,20 @@ let swiperTeacher = new Swiper(".teacher-content", {
     },
   },
 });
+
+let swiperClothes = new Swiper(".card-content", {
+  watchSlidesProgress: true,
+  spaceBetween: 32,
+  grabCursor: true,
+  
+  breakpoints: {
+    600: {
+      slidesPerView: 2,
+    },
+    968: {
+      slidesPerView: 3,
+    },
+  },
+});
+
+

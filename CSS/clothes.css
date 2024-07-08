@@ -231,12 +231,19 @@ section.about {
 
 .clothes .card-body {
     display: flex;
-    gap: 10%;
-    margin-bottom: 90px;
+    margin-bottom: 50px;
+    gap: 3%;
 }
 
 .clothes .card {
     background-color: #dbdbdb;
+    max-width: 274px;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.card-content{
+    overflow: hidden;
 }
 
 .clothes .card-txt {
@@ -393,6 +400,7 @@ section.buy, section.contact  {
 }
 
 .circleWhats {
+    z-index: 999999999999;
     width: 60px;
     height: 60px;
     border-radius: 30%;

@@ -94,4 +94,3 @@ let swiperClothes = new Swiper(".card-content", {
   },
 });
 
-

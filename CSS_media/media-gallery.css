@@ -50,9 +50,14 @@
         margin: 130px auto 30px;
     }
 
+    .gallery .top-gallery {
+        height: auto;
+        display: block;
+    }
+
     .gallery .top-gallery h3 {
         padding: 0 15px;
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .photo-gallery {
@@ -60,12 +65,31 @@
     }
 
     label {
-        margin: 0 6px;
+        margin: 0 8px;
         font-size: 10px;
         font-weight: 500;
     }
 
     .close {
         right: 50px;
+        color: #FFCB0C;
+    }
+
+    /* footer */
+
+    .footer .interface {
+        padding-top: 30px;
+    }
+
+    .footer-contact h4,
+    .footer-links h4,
+    .footer-social h4 {
+        font-size: 14px;
+    }
+
+    .footer-contact p,
+    .footer-links ul li,
+    .footer-social a {
+        font-size: 8px;
     }
 }

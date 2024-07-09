@@ -252,7 +252,7 @@ section.about {
     background-image: url(imagens/Testimony.png);
     background-size: cover;
     background-position: 50%;
-    height: 250px;
+    height: auto;
     padding: 50px 20px;
     text-align: center;
     overflow: hidden;
@@ -340,13 +340,14 @@ section.services {
     color: #FFCB0C;
 }
 
-section.plan {
-    text-align: center;
-    margin-top: 90px;
+.plan .interface {
+    width: 80%;
+    margin: auto;
 }
 
-.plan .interface {
-    margin: auto;
+.plan .title_plan {
+    margin: 90px;
+    text-align: center;
 }
 
 .plan .title_plan h1 {
@@ -363,9 +364,9 @@ section.plan {
 }
 
 .plans-container {
+    margin: 30px auto 0 20%;
     display: flex;
     gap: 2%;
-    margin: 20px 20% 0;
 }
 
 .plans-content {
@@ -374,7 +375,7 @@ section.plan {
 
 .plan .plan-card {
     max-width: 200px;
-    height: 440px;
+    height: 480px;
     border-radius: 10%;
     padding: 30px 10px;
     background-color: #322C36;
@@ -387,7 +388,7 @@ section.plan {
     border-top-left-radius: 5%;
     border-bottom-right-radius: 50%;
     width: 100%;
-    height: 50px;
+    height: 65px;
     font-size: 16px;
     margin-left: -10px;
     padding-top: 20px;
@@ -866,8 +867,8 @@ form textarea {
 }
 
 .circleWhats {
-    width: 40px;
-    height: 40px;
+    width: 33px;
+    height: 35px;
     border-radius: 50%;
     background-color: #3CE203;
     position: fixed;
@@ -881,7 +882,7 @@ form textarea {
 .circleWhats img {
     width: 20px;
     height: 20px;
-    margin-top: 9px;
+    margin-top: 8px;
     margin-left: 7px;
     align-items: center;
     justify-content: center;

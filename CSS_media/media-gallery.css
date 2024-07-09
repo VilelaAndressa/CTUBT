@@ -1,0 +1,71 @@
+@media screen and (max-width: 980px) {
+
+    header .menu-desktop nav ul li a {
+        font-size: 16px;
+    }
+
+    .drop-hover .drop a {
+        padding: 22px;
+    }
+
+    .but-menu #menu_icon {
+        font-size: 50px;
+    }
+
+    .itens_link {
+        top: 0;
+        right: 0;
+    }
+
+    menu h1 {
+        padding-top: 15px;
+    }
+
+    .gallery .top-gallery h3 {
+        font-size: 16px;
+    }
+
+    label {
+        font-size: 14px;
+        margin: 0 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .gallery .top-gallery h3 {
+        font-size: 16px;
+        padding: 0 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+  
+    .menu-desktop {
+        display: none;
+    }
+
+    .gallery h1 {
+        font-size: 24px;
+        margin: 130px auto 30px;
+    }
+
+    .gallery .top-gallery h3 {
+        padding: 0 15px;
+        font-size: 12px;
+    }
+
+    .photo-gallery {
+        columns: 3;
+    }
+
+    label {
+        margin: 0 6px;
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .close {
+        right: 50px;
+    }
+}

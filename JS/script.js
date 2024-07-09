@@ -56,12 +56,12 @@ let swiperCards = new Swiper(".testimonial-content", {
   },
 });
 
-var swiperPlan = new Swiper(".plan-content", {
-  watchSlidesProgress: true,
+let swiperPlan = new Swiper(".plan-content", {
+  slidesPerView: 3,
   spaceBetween: 32,
+  loop: true,
   grabCursor: true,
 
-  slidesPerView: 3,
 });
 
 let swiperTeacher = new Swiper(".teacher-content", {
@@ -93,4 +93,5 @@ let swiperClothes = new Swiper(".card-content", {
     },
   },
 });
+
 

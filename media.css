@@ -106,12 +106,12 @@
     }
 
     .plans-container {
-        max-width: 100% ;
+        max-width: 100%;
     }
 
     /* gallery */
 
-    
+
     .titlePhoto h4 {
         margin-bottom: 60px;
     }
@@ -194,7 +194,7 @@
         padding: 5px 10px 10px;
         margin-top: 10px;
     }
-    
+
     /* contact */
 
     .contact .interface {
@@ -207,7 +207,8 @@
         padding: 20px;
     }
 
-    form input, form textarea {
+    form input,
+    form textarea {
         width: 90%;
         padding: 20px 30px;
     }
@@ -227,10 +228,11 @@
 }
 
 @media screen and (max-width: 768px) {
-    
+
     /* gallery e teacher */
 
-    section.photo, .teachers {
+    section.photo,
+    .teachers {
         height: 95vh;
     }
 }
@@ -246,15 +248,17 @@
         background-image: url(imagens/mobile-photo/hero_Phone.png);
     }
 
-    .services .txt-services h1, .services .txt-services h3 {
+    .services .txt-services h1,
+    .services .txt-services h3 {
         font-size: 20px;
     }
 
-    .services .modality p, .text_photo p {
+    .services .modality p,
+    .text_photo p {
         display: none;
     }
 
-        .plan .title_plan {
+    .plan .title_plan {
         width: 100%;
         margin: auto;
         text-align: center;
@@ -270,12 +274,17 @@
     }
 
     .plans-container {
-        margin: 20px 30% 0 20%;
+        width: 90%;
+        margin: 10%;
+    }
+
+    .plan .plan-card {
+        margin: 10px 60px;
     }
 
     /* gallery */
 
-    section.photo  {
+    section.photo {
         height: 100vh;
     }
 
@@ -283,7 +292,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    
+
     .photos .photoClass {
         margin-bottom: 30px;
     }
@@ -368,7 +377,8 @@
         padding: 20px;
     }
 
-    form input, form textarea {
+    form input,
+    form textarea {
         width: 90%;
         padding: 20px 15px;
     }
@@ -392,11 +402,15 @@
         padding-top: 30px;
     }
 
-    .footer-contact h4, .footer-links h4, .footer-social h4 {
+    .footer-contact h4,
+    .footer-links h4,
+    .footer-social h4 {
         font-size: 14px;
     }
 
-    .footer-contact p, .footer-links ul li, .footer-social a {
+    .footer-contact p,
+    .footer-links ul li,
+    .footer-social a {
         font-size: 8px;
-    } 
+    }
 }

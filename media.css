@@ -282,6 +282,12 @@
         font-size: 16px;
     }
 
+    .gallery-button {
+        margin: 0 auto;
+        padding: 10px 20px 0;
+        width: 20%;
+    }
+
     /* teacher */
 
     .teachers {

@@ -531,6 +531,22 @@ section.photo {
     font-weight: 300;
 }
 
+.gallery-button {
+    background-color: #FFCB0C;
+    width: 10%;
+    height: 30px;
+    margin: 220px auto 0;
+    padding: 8px 5px 0;
+    border-radius: 30px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.gallery-button a {
+    color: #000;
+    text-decoration: none;
+}
+
 section.schedule {
     width: 100%;
     height: 348px;
@@ -849,22 +865,22 @@ form textarea {
 }
 
 .circleWhats {
-    width: 60px;
-    height: 60px;
-    border-radius: 30%;
+    width: 34px;
+    height: 40px;
+    border-radius: 50%;
     background-color: #3CE203;
     position: fixed;
     bottom: 0;
     right: 0;
-    margin-bottom: 20px;
-    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-right: 25px;
 }
 
 .circleWhats img {
-    width: 40px;
-    height: 40px;
-    margin-top: 10px;
-    margin-left: 12px;
+    width: 20px;
+    height: 20px;
+    margin-top: 9px;
+    margin-left: 7px;
     align-items: center;
     justify-content: center;
 }

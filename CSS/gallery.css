@@ -435,7 +435,7 @@ label:hover {
 }
 
 .circleWhats {
-    width: 34px;
+    width: 40px;
     height: 40px;
     border-radius: 50%;
     background-color: #3CE203;
@@ -444,6 +444,7 @@ label:hover {
     right: 0;
     margin-bottom: 25px;
     margin-right: 25px;
+    z-index: 9999;
 }
 
 .circleWhats img {

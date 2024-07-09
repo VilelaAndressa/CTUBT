@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
 
@@ -38,7 +39,7 @@ header .menu-desktop nav ul {
     list-style: none;
     display: flex;
 }
-
+ 
 header .menu-desktop nav ul li a {
     text-decoration: none;
     padding: 10px 30px;
@@ -58,7 +59,7 @@ header .menu-desktop nav ul li a:hover {
 
 .drop-hover .drop {
     position: absolute;
-    background-color: #FFCB0C;
+    background-color:#FFCB0C;
     width: 100%;
     height: 0;
     overflow: hidden;
@@ -129,13 +130,13 @@ menu h1 {
 .link a {
     display: flex;
     gap: 1px;
-    padding-top: 14px;
+    padding-top: 12px;
     padding-left: 15px;
     text-transform: uppercase;
     font-weight: 500;
     text-align: center;
     width: 100%;
-    height: 12px;
+    height: 24px;
     font-size: 20px;
     border-top: 2px solid #00000036;
     list-style-type: none;
@@ -865,7 +866,7 @@ form textarea {
 }
 
 .circleWhats {
-    width: 34px;
+    width: 40px;
     height: 40px;
     border-radius: 50%;
     background-color: #3CE203;
@@ -874,6 +875,7 @@ form textarea {
     right: 0;
     margin-bottom: 25px;
     margin-right: 25px;
+    z-index: 9999;
 }
 
 .circleWhats img {

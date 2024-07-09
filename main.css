@@ -345,7 +345,6 @@ section.plan {
 }
 
 .plan .interface {
-    width: 80%;
     margin: auto;
 }
 
@@ -365,7 +364,7 @@ section.plan {
 .plans-container {
     display: flex;
     gap: 2%;
-    margin-top: 20px;
+    margin: 20px 20% 0;
 }
 
 .plans-content {

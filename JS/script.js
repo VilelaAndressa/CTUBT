@@ -56,11 +56,17 @@ let swiperCards = new Swiper(".testimonial-content", {
   },
 });
 
-let swiperPlan = new Swiper(".plan-content", {
-  slidesPerView: 3,
+let swiperPlan = new Swiper(".plans-content", {
   spaceBetween: 32,
-  loop: true,
   grabCursor: true,
+  breakpoints: {
+    600: {
+      slidesPerView: 2,
+    },
+    968: {
+      slidesPerView: 3,
+    },
+  },
 
 });
 

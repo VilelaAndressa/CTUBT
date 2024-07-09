@@ -193,14 +193,14 @@ section.hero {
     color: #fff;
 }
 
-section.plan {
-    text-align: center;
-    margin-top: 90px;
-}
-
 .plan .interface {
     width: 80%;
     margin: auto;
+}
+
+.plan .title_plan {
+    margin: 90px;
+    text-align: center;
 }
 
 .plan .title_plan h1 {
@@ -217,9 +217,9 @@ section.plan {
 }
 
 .plans-container {
+    margin: 30px auto 0 20%;
     display: flex;
     gap: 2%;
-    margin-top: 20px;
 }
 
 .plans-content {

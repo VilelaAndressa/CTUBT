@@ -86,7 +86,26 @@
         width: 60%;
         margin-top: 80px;
     }
-    
+
+    .plan .title_plan {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .plan .title_plan h1 {
+        font-size: 24px;
+    }
+
+    .plan .title_plan h4 {
+        font-size: 18px;
+        margin-bottom: 60px;
+    }
+
+    .plans-container {
+        margin: 0 15% 10px 20%;
+    }
+
     /* faq */
 
     .faq-plan .title_accordion {

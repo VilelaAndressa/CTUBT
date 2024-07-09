@@ -254,6 +254,10 @@
         display: none;
     }
 
+    .plans-container {
+        margin: 20px 15% 0;
+    }
+
     /* gallery */
 
     section.photo  {

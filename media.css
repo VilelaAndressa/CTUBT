@@ -1,3 +1,57 @@
+@media screen and (max-width: 1280px) {
+
+    .photo .interface {
+        height: 100vh;
+    }
+
+    .photo .text_photo {
+        margin-bottom: 50px;
+    }
+
+    .teachers {
+        height: 75vh;
+    }
+
+    .faq-about {
+        margin-top: 90px;
+    }
+
+}
+
+@media screen and (max-width: 1120px) {
+
+    .plans-container {
+        margin: 0 25%;
+    }
+
+    .titlePhoto h4 {
+        margin-bottom: 60px;
+    }
+
+    .photoClass img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .gallery-button {
+        margin-top: 120px;
+    }
+
+    .schedule button {
+        font-size: 16px;
+    }
+
+    .teachers {
+        height: 100vh;
+    }
+
+    .photoTeachers img {
+        width: 150px;
+        height: 150px;
+    }
+
+}
+
 @media screen and (max-width: 980px) {
 
     header .menu-desktop nav ul li a {
@@ -107,6 +161,7 @@
 
     .plans-container {
         max-width: 100%;
+        margin: 0 15%;
     }
 
     /* gallery */

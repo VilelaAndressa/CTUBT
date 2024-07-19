@@ -61,13 +61,12 @@ let swiperPlan = new Swiper(".plans-content", {
   grabCursor: true,
   breakpoints: {
     600: {
-      slidesPerView: 2,
+      slidesPerView: 1,
     },
     968: {
-      slidesPerView: 3,
+      slidesPerView: 2,
     },
   },
-
 });
 
 let swiperTeacher = new Swiper(".teacher-content", {

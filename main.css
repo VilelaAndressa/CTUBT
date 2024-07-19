@@ -176,7 +176,7 @@ section.hero {
     font-size: 3em;
     font-weight: 300;
     font-style: italic;
-    width: 437px;
+    width: 400px;
     height: 141px;
 }
 
@@ -364,7 +364,7 @@ section.services {
 }
 
 .plans-container {
-    margin: 30px auto 0 20%;
+    margin: 0 30%;
     display: flex;
     gap: 2%;
 }
@@ -537,7 +537,7 @@ section.photo {
     background-color: #FFCB0C;
     width: 10%;
     height: 30px;
-    margin: 220px auto 0;
+    margin: 250px auto 0;
     padding: 8px 5px 0;
     border-radius: 30px;
     text-transform: capitalize;

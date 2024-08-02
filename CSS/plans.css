@@ -404,6 +404,7 @@ section.hero {
     color: #FFCB0C;    
     font-size: 12px;
     margin-bottom: 5px;
+    width: 250px;
 }
 
 .footer-links ul li{

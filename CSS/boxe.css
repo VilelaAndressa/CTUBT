@@ -511,10 +511,6 @@ hr {
 
 section.contact {
     margin: 0;
-    background-image: url(../imagens/maps.fundo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 
 .contact .interface {
@@ -576,7 +572,7 @@ form textarea {
 }
 
 .contact .title-contact p {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
     margin-bottom: 30px;
 }
@@ -595,7 +591,6 @@ form textarea {
     line-height: 30px;
     margin: 0 40px;
     color: #FFCB0C;
-    filter: drop-shadow(1px 1px 2px #00000046);
 }
 
 .contact .location p i {
@@ -638,6 +633,7 @@ form textarea {
     color: #FFCB0C;
     font-size: 12px;
     margin-bottom: 5px;
+    width: 250px;
 }
 
 .footer-links ul li {

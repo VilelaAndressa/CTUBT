@@ -99,4 +99,18 @@ let swiperClothes = new Swiper(".card-content", {
   },
 });
 
+function confirmarRedirecionamento() { 
+  var confirmar = confirm("Você será direcionado para um site externo. Deseja continuar?");
+  if (confirmar) {
+      window.location.href = "https://evo-totem.w12app.com.br/evo/5989/totem/landing-page/agenda";
+  } 
+  return false;
+}
 
+function confirmarPlano() { 
+  var confirmar = confirm("Você será direcionado para um site externo. Deseja continuar?");
+  if (confirmar) {
+      window.location.href = "https://evo-totem.w12app.com.br/evo/5989/site/cnD82oPxrnsNlb2m%5BPLUS%5DpchHg%5BEQUAL%5D%5BEQUAL%5D";
+  } 
+  return false;
+}

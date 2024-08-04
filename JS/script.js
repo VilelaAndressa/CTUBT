@@ -114,3 +114,10 @@ function confirmarPlano() {
   } 
   return false;
 }
+function confirmarLoja() { 
+  var confirmar = confirm("Você será direcionado para um site externo. Deseja continuar?");
+  if (confirmar) {
+      window.location.href = "https://evo-totem.w12app.com.br/evo/5989/site/landing-page/loja";
+  } 
+  return false;
+}

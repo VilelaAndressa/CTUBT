@@ -106,6 +106,7 @@
         text-transform: none;
         text-align: left;
         display: block;
+        margin-bottom: 30px;
     }
 
     .plans-container {

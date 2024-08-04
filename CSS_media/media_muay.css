@@ -155,10 +155,6 @@
         margin: 60px 0 30px;
     }
 
-    .testimony .testimonial {
-        height: 30vh;
-    }
-
     /* contact */
 
     .contact .interface {
@@ -204,7 +200,7 @@
     }
 
     .testimony .testimonial {
-        height: 35vh;
+        height: auto;
     }
 
 }
@@ -336,10 +332,14 @@
         font-size: 28px;
     }
 
+    .testimony .testimonial p {
+        height: 40vh;
+    }
+
     /* faq */
 
     .faq-muay {
-        margin-top: 180px;
+        margin-top: 300px;
     }
 
     .faq-muay .title_accordion {

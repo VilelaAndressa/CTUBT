@@ -96,6 +96,10 @@
     }
 
     /* teacher */
+    
+    .teachers .txt-title h5 {
+        display: block;
+    }
 
     .teachers .img-teacher img {
         width: 200px;

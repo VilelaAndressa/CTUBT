@@ -42,13 +42,13 @@
     }
 
     .plans-container {
-        max-width: 100% ;
+        max-width: 100%;
     }
 
 }
 
 @media screen and (max-width: 768px) {
- 
+
     /* hero */
 
     section.hero {
@@ -61,7 +61,7 @@
     .menu-desktop {
         display: none;
     }
- 
+
     /* hero */
 
     section.hero {
@@ -78,7 +78,7 @@
         font-size: 28px;
     }
 
-    .hero .text_hero p  {
+    .hero .text_hero p {
         margin-top: 0;
     }
 
@@ -102,6 +102,12 @@
         margin-bottom: 60px;
     }
 
+    .plan .title_plan h5 {
+        text-transform: none;
+        text-align: left;
+        display: block;
+    }
+
     .plans-container {
         margin: 0 15% 10px 20%;
     }
@@ -113,19 +119,19 @@
         width: 95%;
     }
 
-    .faq-plan  .title_accordion img {
+    .faq-plan .title_accordion img {
         width: 85px;
     }
 
-    .faq-plan  .faq {
+    .faq-plan .faq {
         margin-top: 60px;
     }
 
-    .faq-plan  .faq summary {
+    .faq-plan .faq summary {
         font-size: 16px;
     }
 
-    .faq-plan  .faq p {
+    .faq-plan .faq p {
         width: 95%;
         font-size: 14px;
     }
@@ -142,7 +148,8 @@
         padding: 20px;
     }
 
-    form input, form textarea {
+    form input,
+    form textarea {
         width: 90%;
         padding: 20px 15px;
     }
@@ -171,7 +178,9 @@
         flex-direction: column;
     }
 
-    .footer-contact p, .footer-links ul li, .footer-social a {
+    .footer-contact p,
+    .footer-links ul li,
+    .footer-social a {
         font-size: 12px;
-    } 
+    }
 }

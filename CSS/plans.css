@@ -222,6 +222,10 @@ section.hero {
     margin-bottom: 90px;
 }
 
+.plan .title_plan h5 {
+    display: none;
+}
+
 .plans-container {
     margin: 0 30%;
     display: flex;

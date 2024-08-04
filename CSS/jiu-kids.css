@@ -397,6 +397,12 @@ section.teachers {
     margin-bottom: 90px;
 }
 
+.teachers .txt-title h5 {
+    text-align: left;
+    text-transform: none;
+    display: none;
+}
+
 .teachers .teacher-container {
     display: flex;
     justify-content: space-between;

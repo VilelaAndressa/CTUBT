@@ -317,6 +317,12 @@
         font-size: 18px;
         margin-bottom: 60px;
     }
+    
+    .plan .title_plan h5 {
+        text-transform: none;
+        text-align: left;
+        display: block;
+    }
 
     .plans-container {
         width: 90%;

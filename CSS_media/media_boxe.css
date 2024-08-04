@@ -30,6 +30,7 @@
 
     .hero .txt-hero h1 {
         font-size: 28px;
+        width: 80%;
     }
 
     .hero .txt-hero p {
@@ -292,10 +293,14 @@
         font-size: 28px;
     }
 
+    .testimony .testimonial p {
+        height: 40vh;
+    }
+
     /* faq */
 
     .faq-boxe {
-        margin-top: 180px;
+        margin-top: 300px;
     }
 
     .faq-boxe .title_accordion {

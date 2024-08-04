@@ -35,6 +35,11 @@ header .interface {
     width: 85%;
 }
 
+header.rolar {
+    background-color:#FFCB0C;
+    box-shadow: 0px 0px 8px #00000059;
+}
+
 header .menu-desktop nav ul {
     list-style: none;
     display: flex;
@@ -431,8 +436,9 @@ hr {
 }
 
 .testimony .testimonial {
-    width: 260px;
-    border-radius: 5%;
+    width: 280px;
+    height: auto;
+    border-radius: 3%;
     padding: 30px 10px;
     background-color: #322C36;
     text-align: center;
@@ -448,7 +454,7 @@ hr {
     line-height: 25px;
     font-size: 14px;
     padding-top: 10px;
-    height: 150px;
+    height: 180px;
 }
 
 .testimony .testimonial h4 {
@@ -519,42 +525,6 @@ section.contact {
     display: flex;
     justify-content: space-between;
     padding: 90px;
-}
-
-.contact form {
-    border: 1px solid #FFCB0C;
-    padding: 20px;
-}
-
-form input,
-form textarea {
-    width: 100%;
-    padding: 20px 10px;
-    margin: 10px auto;
-    border-radius: 5px;
-    border: 1px solid #00000041;
-    cursor: pointer;
-    text-transform: capitalize;
-}
-
-form textarea {
-    resize: none;
-    max-height: 200px;
-}
-
-.contact .btn-form {
-    text-align: center;
-}
-
-.contact .btn-form input {
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: 500;
-    margin-top: 20px;
-    width: 100px;
-    padding: 20px;
-    background-color: #FFCB0C;
-    border: none;
 }
 
 .contact .title-contact {

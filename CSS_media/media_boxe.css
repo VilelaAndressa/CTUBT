@@ -154,16 +154,6 @@
         display: block;
     }
 
-    .contact form {
-        padding: 20px;
-    }
-
-    form input,
-    form textarea {
-        width: 90%;
-        padding: 20px 30px;
-    }
-
     .contact .title-contact {
         width: 100%;
         margin: 30px 0;
@@ -338,16 +328,6 @@
         display: block;
     }
 
-    .contact form {
-        padding: 20px;
-    }
-
-    form input,
-    form textarea {
-        width: 90%;
-        padding: 20px 15px;
-    }
-
     .contact .title-contact {
         width: 100%;
         margin: 30px 0;
@@ -358,7 +338,7 @@
     }
 
     .contact .location p {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     /* footer */
@@ -367,16 +347,15 @@
         padding-top: 30px;
     }
 
-    .footer-contact h4,
-    .footer-links h4,
-    .footer-social h4 {
-        font-size: 14px;
+    .footer .footer-container {
+        display: flex;
+        flex-direction: column;
     }
 
     .footer-contact p,
     .footer-links ul li,
     .footer-social a {
-        font-size: 8px;
+        font-size: 12px;
     }
 }
 
@@ -394,7 +373,6 @@
     .teacher .text-teacher h4,
     h2 {
         margin-left: 10px;
-
     }
 
     .teacher .text-teacher p {

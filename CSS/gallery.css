@@ -39,6 +39,11 @@ header .interface {
     width: 85%;
 }
 
+header.rolar {
+    background-color:#FFCB0C;
+    box-shadow: 0px 0px 8px #00000059;
+}
+
 header .menu-desktop nav ul {
     list-style: none;
     display: flex;

@@ -48,10 +48,10 @@ let swiperCards = new Swiper(".testimonial-content", {
 
   breakpoints: {
     600: {
-      slidesPerView: 2,
+      slidesPerView: 1,
     },
     968: {
-      slidesPerView: 3,
+      slidesPerView: 2,
     },
   },
 });
